@@ -1,0 +1,220 @@
+$pale: #ccd9e6;
+$pale2: #c6e0ff;
+$pale3: #a0ccff;
+$dark: #336699;
+$dark2: #3988A8;
+$dark3: #3A94AA;
+$text-color: rgb(58, 61, 63);
+$nav-height: 12vh;
+
+@mixin gradient($color1, $color2, $color3, $orientation1, $orientation2) {
+  background: $color1;
+  background: -moz-linear-gradient($orientation1, $color1 0%, $color2 55%, $color3 100%);
+  background: -webkit-linear-gradient($orientation1, $color1 0%, $color2 55%, $color3 100%);
+  background: linear-gradient(to $orientation2, $color1 0%,$color2 55%, $color3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color2',GradientType=0 );
+}
+
+@mixin filter($value) {
+  -webkit-filter: opacity($value); /* Webkit */
+  filter: opacity($value); /* IE6-9 */
+  filter: opacity($value); /* W3C */
+}
+
+a{
+  margin: 0px 15px 20px;
+  height: 80%;
+  text-decoration: none;
+  img{
+    @include filter(0.6);
+    height: 100%;
+    transition: 0.3s;
+  }
+  img:hover{
+    filter: none;
+    transition: 0.3s;
+  }
+}
+
+header, footer {
+  @include gradient((lighten($dark3, 15%)), (lighten($dark2, 15%)), (lighten($dark, 15%)), left, right);
+  height: $nav-height;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  p{
+    margin: 15px;
+    color: white;
+    font-size: 1em;
+    font-variant: small-caps;
+    font-family: 'work-sans', sans-serif;
+    text-decoration: none;
+  }
+  .button{
+    height: 60px;
+    width: 60px;
+    padding: 0;
+    margin-left: 35px;
+    cursor: pointer;
+  }
+}
+
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 3;
+  align-items: center;
+  a{
+    font-family: 'work-sans', sans-serif;
+    color: white;
+    margin: 15px;
+    text-transform: uppercase;
+  }
+  nav{
+    background-color: white;
+    transform: skewX(-55deg);
+    margin-right: -80px;
+    width: 850px;
+    max-width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    :last-child{
+      margin-right: 100px;
+    }
+  }
+  nav a{
+    background-color: (lighten($dark2, 15%));
+    color: white;
+    transform: skewX(55deg);
+    box-sizing: content-box;
+    width: 180px;
+    border: 4px solid (lighten($dark2, 15%));
+    border-radius: 3px;
+    padding: 8px;
+    margin-top: 25px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  nav a:hover{
+    background-color: white;
+    color: (lighten($dark2, 15%));
+    transition: 0.2s;
+  }
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 125vh;
+  max-height: 1400px;
+  padding: 8%;
+  h1{
+    font-size: 4em;
+    font-variant: small-caps;
+    font-family: 'Rubik', sans-serif;
+  }
+  h2{
+    color: $dark;
+    font-size: 3em;
+    font-variant: small-caps;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  h4, h5{
+    color: $text-color;
+    font-size: 2em;
+    font-variant: small-caps;
+    font-style: italic;
+    font-family: 'Rubik', sans-serif;
+  }
+  h5{
+    font-size: 1.2em;
+    color: (lighten($text-color, 25%));
+  }
+  p{
+    margin: auto;
+    max-width: 500px;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    color: $text-color;
+    font-family: 'work-sans', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 18px;
+  }
+}
+
+.intro{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 32%;
+}
+
+.social-wrap{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.project-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90%;
+  .project{
+    background-color: white;
+    width: 40%;
+    height: 45%;
+    margin: auto;
+  }
+}
+
+.skill-wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90%;
+  .skill-list{
+    width: 40%;
+    height: 90%;
+    margin: auto;
+    background-color: white;
+  }
+}
+
+.pale{
+  @include gradient($pale, $pale2, $pale3, top, bottom);
+  h1{
+    color: $dark;
+  }
+}
+
+.dark{
+  @include gradient($dark, $dark2, $dark3, top, bottom);
+  h1{
+    color: $pale;
+  }
+}
+
+#about{
+  margin-top: $nav-height;
+}

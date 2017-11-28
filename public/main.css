@@ -59,7 +59,8 @@ header {
     max-width: 75%;
     height: 100%;
     display: flex;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    align-items: center; }
     header nav :last-child {
       margin-right: 100px; }
   header nav a {
@@ -67,7 +68,6 @@ header {
     color: white;
     transform: skewX(55deg);
     box-sizing: content-box;
-    width: 180px;
     border: 4px solid #63adca;
     border-radius: 3px;
     padding: 8px;
@@ -76,7 +76,7 @@ header {
     text-align: center;
     line-height: 35px;
     vertical-align: middle;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
     text-decoration: none;
     transition: 0.4s; }
@@ -183,5 +183,17 @@ div {
 
 #about {
   margin-top: 12vh; }
+
+@media screen and (max-width: 767px) {
+  header, footer {
+    height: 8vh; }
+
+  header nav a {
+    margin: 8px;
+    padding: 2px;
+    font-size: 1em; }
+
+  #about {
+    margin-top: 8vh; } }
 
 /*# sourceMappingURL=main.css.map */

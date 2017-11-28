@@ -24,7 +24,7 @@ header, footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  height: 8vh; }
+  height: 10vh; }
   header .button, footer .button {
     height: 45px;
     width: 45px; }
@@ -75,11 +75,11 @@ header {
     margin: 8px;
     padding: 2px;
     margin-top: 25px;
-    height: 35px;
-    font-size: 1em;
+    width: 15%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 1.5em;
     text-align: center;
-    line-height: 35px;
-    vertical-align: middle;
     font-weight: bold;
     text-decoration: none;
     transition: 0.4s; }
@@ -127,7 +127,7 @@ div {
     margin-bottom: 18px; }
 
 #about {
-  margin-top: 8vh;
+  margin-top: 10vh;
   max-height: 1400px; }
 
 .intro {
@@ -192,12 +192,10 @@ div {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  header, footer {
-    height: 15vh; }
-
   header nav a {
-    padding: 8px;
-    font-size: 1.3em; }
+    height: 60px;
+    line-height: 60px;
+    margin-top: 8px; }
 
   .project-wrap {
     flex-wrap: wrap;
@@ -219,7 +217,6 @@ div {
       height: 90%; }
 
   #about {
-    margin-top: 15vh;
     height: 140vh; } }
 
 /*# sourceMappingURL=main.css.map */

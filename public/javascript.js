@@ -1,3 +1,11 @@
+// Center text on nav link //
+$(document).ready(function(){
+    $('.nav-link').each(function(){
+        var height = $(this).height();
+        $(this).css('lineHeight', (height) + "px");
+    });
+});
+
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
     // target element id

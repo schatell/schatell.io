@@ -1,3 +1,6 @@
+/* Variables */
+/* Mixin */
+/* Mobile First */
 a {
   margin: 0px 15px 20px;
   height: 80%;
@@ -36,8 +39,7 @@ header, footer {
     font-family: 'work-sans', sans-serif;
     text-decoration: none; }
   header .button, footer .button {
-    height: 60px;
-    width: 60px;
+    height: 40%;
     padding: 0;
     margin-left: 35px;
     cursor: pointer; }
@@ -76,8 +78,7 @@ header {
     padding: 2px;
     margin-top: 25px;
     width: 15%;
-    height: 80px;
-    line-height: 80px;
+    height: 40%;
     font-size: 1.5em;
     text-align: center;
     font-weight: bold;
@@ -190,12 +191,15 @@ div {
   .dark h1 {
     color: #ccd9e6; }
 
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   header nav a {
-    height: 60px;
-    line-height: 60px;
-    margin-top: 8px; }
+    margin-top: 8px;
+    height: 60%; }
+  header .button {
+    height: 60%; }
 
   .project-wrap {
     flex-wrap: wrap;

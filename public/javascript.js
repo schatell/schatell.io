@@ -1,7 +1,9 @@
 // Center text on nav link //
 $(document).ready(function(){
+    // target element
     $('.nav-link').each(function(){
         var height = $(this).height();
+        // Affect lineheight same as height of element
         $(this).css('lineHeight', (height) + "px");
     });
 });

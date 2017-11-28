@@ -187,13 +187,37 @@ div {
 @media screen and (max-width: 767px) {
   header, footer {
     height: 8vh; }
+    header .button, footer .button {
+      height: 45px;
+      width: 45px; }
 
   header nav a {
     margin: 8px;
     padding: 2px;
     font-size: 1em; }
 
+  #projects {
+    height: 2000px;
+    max-height: none; }
+
   #about {
-    margin-top: 8vh; } }
+    margin-top: 8vh; }
+
+  #skills {
+    height: 2000px;
+    max-height: none; }
+
+  .skill-wrap {
+    flex-direction: column; }
+    .skill-wrap .skill-list {
+      height: 45%;
+      width: 85%; }
+
+  .project-wrap {
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .project-wrap .project {
+      width: 82%;
+      height: 24%; } }
 
 /*# sourceMappingURL=main.css.map */

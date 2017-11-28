@@ -5,7 +5,6 @@ $dark: #336699;
 $dark2: #3988A8;
 $dark3: #3A94AA;
 $text-color: rgb(58, 61, 63);
-$nav-height: 12vh;
 
 @mixin gradient($color1, $color2, $color3, $orientation1, $orientation2) {
   background: $color1;
@@ -36,12 +35,16 @@ a{
   }
 }
 
-header, footer {
+header, footer{
   @include gradient((lighten($dark3, 15%)), (lighten($dark2, 15%)), (lighten($dark, 15%)), left, right);
-  height: $nav-height;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  height: 8vh;
+  .button{
+    height: 45px;
+    width: 45px;
+  }
   p{
     margin: 15px;
     color: white;
@@ -75,31 +78,31 @@ header{
   nav{
     background-color: white;
     transform: skewX(-55deg);
-    margin-right: -80px;
-    width: 850px;
-    max-width: 75%;
+    margin-right: -25%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     :last-child{
-      margin-right: 100px;
+      margin-right: 28%;
     }
   }
-  nav a{
+  nav a {
     background-color: (lighten($dark2, 15%));
     color: white;
     transform: skewX(55deg);
     box-sizing: content-box;
     border: 4px solid (lighten($dark2, 15%));
     border-radius: 3px;
-    padding: 8px;
+    margin: 8px;
+    padding: 2px;
     margin-top: 25px;
     height: 35px;
+    font-size: 1em;
     text-align: center;
     line-height: 35px;
     vertical-align: middle;
-    font-size: 1.3em;
     font-weight: bold;
     text-decoration: none;
     transition: 0.4s;
@@ -117,8 +120,7 @@ div{
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  height: 125vh;
-  max-height: 1400px;
+  height: 2000px;
   padding: 8%;
   h1{
     font-size: 4em;
@@ -156,6 +158,11 @@ div{
   }
 }
 
+#about{
+  margin-top: 8vh;
+  max-height: 1400px;
+}
+
 .intro{
   margin-top: 50px;
   display: flex;
@@ -164,6 +171,9 @@ div{
   justify-content: center;
   width: 100%;
   height: 32%;
+  .avatar{
+    height: 95%;
+  }
 }
 
 .social-wrap{
@@ -175,29 +185,30 @@ div{
   padding-top: 20px;
 }
 
-.project-wrap{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 90%;
-  .project{
-    background-color: white;
-    width: 40%;
-    height: 45%;
-    margin: auto;
-  }
-}
-
 .skill-wrap{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   height: 90%;
   .skill-list{
-    width: 40%;
-    height: 90%;
+    height: 45%;
+    width: 85%;
     margin: auto;
     background-color: white;
+  }
+}
+
+.project-wrap{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 90%;
+  width: 100%;
+  .project{
+    background-color: white;
+    width: 82%;
+    height: 24%;
+    margin: auto;
   }
 }
 
@@ -215,49 +226,45 @@ div{
   }
 }
 
-#about{
-  margin-top: $nav-height;
-}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  header, footer {
+    height: 15vh;
+  }
 
-//PHONE!!!//
+  header{
+    nav a{
+      padding: 8px;
+      font-size: 1.3em;
+    }
+  }
 
-@media screen and (max-width: 767px) {
-    header, footer{
-      height: 8vh;
-      .button{
-      height: 45px;
-      width: 45px;
-      }
+  .project-wrap{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+    .project{
+      width: 40%;
+      height: 45%;
     }
-    header nav a {
-      margin: 8px;
-      padding: 2px;
-      font-size: 1em;
+  }
+  div{
+    max-height: 1400px;
+    .avatar{
+      height: 20%;
     }
-    #projects{
-      height: 2000px;
-      max-height: none;
+  }
+
+  .skill-wrap{
+    flex-direction: row;
+    .skill-list{
+      width: 40%;
+      height: 90%;
     }
-    #about{
-      margin-top: 8vh;
-    }
-    #skills{
-      height: 2000px;
-      max-height: none;
-    }
-    .skill-wrap{
-      flex-direction: column;
-      .skill-list{
-        height: 45%;
-        width: 85%;
-      }
-    }
-    .project-wrap{
-      flex-direction: column;
-      flex-wrap: nowrap;
-      .project{
-        width: 82%;
-        height: 24%;
-      }
-    }
+  }
+
+  #about{
+    margin-top: 15vh;
+    height: 140vh;
+  }
 }

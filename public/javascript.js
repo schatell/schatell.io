@@ -1,4 +1,4 @@
-// Center text on nav link //
+// Center text on nav link
 $(document).ready(function(){
     // target element
     $('.nav-link').each(function(){
@@ -7,6 +7,7 @@ $(document).ready(function(){
         $(this).css('lineHeight', (height) + "px");
     });
 });
+
 
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {

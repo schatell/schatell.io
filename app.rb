@@ -2,20 +2,19 @@ require 'sinatra'
 require 'sinatra/reloader' if development?
 
 english = ["About me", "Projects", "Skills", "Hi!", "My name is Sebastien,",
-"I'm a self-taught web developer and passionated by the modern
-web! I like working with today's technologies and working with exciting new
-design ideas!", "My skills are diverse and practical. I like working in
-everything Front-End like HTML, CSS, and modern Javascript frameworks. I also do
-Back-End with Ruby.", "Contact me at:", "Projects", "Skills", "Soft-Skills",
-"Tech-Skills"]
+"I'm a self-taught web developer and passionated by the modern web! I like
+working with today's technologies, exciting new design ideas, the outdoors and
+archery!", "My skills are diverse and practical. I like working in everything
+Front-End like HTML, CSS, and modern Javascript frameworks. I also do Back-End
+with Ruby.", "Contact me at:", "Projects", "Skills"]
 
 francais = ["Présentation", "Projets", "Compétences", "Bonjour!", "Mon nom est
 Sébastien,", "je suis un développeur web autodidacte et passionné par le
-web moderne! J'aime travailler avec les technologies d'aujourd'hui et travailler
-avec de nouvelles idées de design!", "Mes compétences sont diverses et pratiques.
-J'aime travailler dans tout ce qui est frontal comme HTML, CSS, et les outils
-Javascript modernes. Je fais aussi de l'interne avec Ruby.", "Contacter moi à:",
-"Projets", "Compétences", "Qualités Personnelles", "Connaissances Techniques"]
+web moderne! J'aime travailler avec les technologies d'aujourd'hui, avec de
+nouvelles idées de design, la vie a l'exterieur et l'archerie!", "Mes
+compétences sont diverses et pratiques. J'aime travailler dans tout ce qui est
+frontal comme HTML, CSS, et les outils Javascript modernes. Je fais aussi de
+l'interne avec Ruby.", "Contacter moi à:", "Projets", "Compétences"]
 
 projectsf = [
               ["Ruby-Mastermind", "C'est le premier vrai projet que j'ai fait

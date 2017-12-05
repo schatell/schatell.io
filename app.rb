@@ -2,28 +2,33 @@ require 'sinatra'
 require 'sinatra/reloader' if development?
 
 english = ["About me", "Projects", "Skills", "Hi!", "My name is Sebastien,",
-"I'm a self-taught web developer. I'm passionated by the modern
+"I'm a self-taught web developer and passionated by the modern
 web! I like working with today's technologies and working with exciting new
 design ideas!", "My skills are diverse and practical. I like working in
 everything Front-End like HTML, CSS, and modern Javascript frameworks. I also do
-Back-End with Ruby.", "Contact me at:", "Projects","Technologies Used", "Skills", "Soft-Skills",
+Back-End with Ruby.", "Contact me at:", "Projects", "Skills", "Soft-Skills",
 "Tech-Skills"]
 
 francais = ["Présentation", "Projets", "Compétences", "Bonjour!", "Mon nom est
-Sébastien", "Je suis un développeur web autodidacte. Je suis passionné par le
+Sébastien,", "je suis un développeur web autodidacte et passionné par le
 web moderne! J'aime travailler avec les technologies d'aujourd'hui et travailler
 avec de nouvelles idées de design!", "Mes compétences sont diverses et pratiques.
 J'aime travailler dans tout ce qui est frontal comme HTML, CSS, et les outils
 Javascript modernes. Je fais aussi de l'interne avec Ruby.", "Contacter moi à:",
-"Projets", "Technologie Utilisé", "Compétences", "Qualités Personnelles", "Connaissances Techniques"]
+"Projets", "Compétences", "Qualités Personnelles", "Connaissances Techniques"]
 
 projectsf = [
               ["Ruby-Mastermind", "C'est le premier vrai projet que j'ai fait
                 seul, il s'agit d'une adaptation du fameux jeu de plateau
-                'Mastermind'", "Les principaux défis consistaient à donner un
+                'Mastermind'. Les principaux défis consistaient à donner un
                 retour d'information automatique à l'utilisateur et à écrire
                 une IA (assez stupide) pour concurrencer l'utilisateur."],
-              ["Projet2"],
+              ["Archery3dvantage", "Ceci est mon projet personnel. J'ai
+                construit cette application web en collaboration avec ma femme,
+                également développeur Web. Il s'agit d'un site Web qui vous aide
+                à garder une trace de vos scores en tir à l'arc 3D. Il aide
+                également l'utilisateur à identifier les erreurs courantes par
+                type de cible."],
               ["Projet3"],
               ["Projet4"]
             ]
@@ -31,10 +36,14 @@ projectsf = [
 projectse = [
               ["Ruby-Mastermind", "This is the first real project I did entirely
                 on my own. It's an adaptation of the famous Mastermind board
-                game.", " The main challenges consisted of giving automatic feedback
+                game. The main challenges consisted of giving automatic feedback
                 to the user, and writing a (pretty stupid) AI to compete against
                 the user."],
-              ["Project2"],
+              ["Archery3dvantage", "This is my personal pet project. I built
+                this web app teaming with my wife, also a web developer.
+                This is a website that helps you keep track of your scores in 3d
+                archery. It also helps the user to identify common mistake by
+                target type."],
               ["Project3"],
               ["Project4"]
             ]

@@ -39,6 +39,11 @@ a{
   }
 }
 
+p{
+  font-family: 'work-sans', sans-serif;
+  font-variant: small-caps;
+}
+
 header, footer{
   @include gradient((lighten($dark3, 15%)), (lighten($dark2, 15%)), (lighten($dark, 15%)), left, right);
   display: flex;
@@ -53,8 +58,6 @@ header, footer{
     margin: 15px;
     color: white;
     font-size: 1em;
-    font-variant: small-caps;
-    font-family: 'work-sans', sans-serif;
     text-decoration: none;
   }
   .button{
@@ -82,6 +85,7 @@ header{
   nav{
     background-color: white;
     transform: skewX(-35deg);
+    border-radius: 0px 0px 0px 10px;
     margin-right: -25%;
     width: 100%;
     height: 100%;
@@ -129,7 +133,7 @@ div{
     font-family: 'Rubik', sans-serif;
   }
   h2{
-    z-index: 3;
+    z-index: 2;
     color: $dark;
     font-size: 3em;
     font-variant: small-caps;
@@ -151,18 +155,16 @@ div{
   p{
     margin: auto;
     max-width: 500px;
-    font-size: 1.5em;
-    font-variant: small-caps;
+    font-size: 1.8em;
     color: $text-color;
-    font-family: 'work-sans', sans-serif;
-    line-height: 1.2;
-    margin-bottom: 18px;
+    line-height: 1.4em;
+    margin-bottom: 28px;
   }
 }
 
 #about{
   margin-top: $header-height;
-  max-height: 1200px;
+  max-height: 1500px;
 }
 
 .intro{
@@ -172,7 +174,7 @@ div{
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 32%;
+  height: 45%;
   .avatar{
     height: 95%;
   }
@@ -203,62 +205,37 @@ div{
 .project-wrap{
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   height: 90%;
   width: 100%;
   .project{
-    position: relative;
     background-color: white;
     width: 750px;
     height: 750px;
     margin: auto;
+    h2{
+      border-bottom: 1px solid $text-color;
+    }
     a.project-info{
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      align-items: center;
       margin: 0;
-      background: white;
-      z-index: 2;
+      background: transparent;
       padding: 30px;
-      position: absolute;
-      height: 85%;
+      height: 100%;
       width: 100%;
       box-sizing: border-box;
-      opacity: 0;
       bottom: 0;
-      left: 0;
-      transition: 0.2s;
-      &:hover{
-        opacity: 0.8;
-        transition: 0.4s;
-        cursor: pointer;
+      img{
+        filter: none;
       }
       p{
-        margin-top: 0;
-      }
-      .tech-used{
-        display: flex;
-        flex-direction: column;
-        height: 35%;
-        width: 100%;
-        .tech-wrap{
-          height: 80%;
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around;
-          align-items: flex-end;
-          img{
-            height: 70%;
-            filter: none;
-          }
-        }
+        margin: 0;
+
       }
     }
     .project-icon{
-      position: relative;
-      top: -20px;
-      width: 60%;
+      height: 50%;
     }
   }
 }
@@ -317,13 +294,8 @@ div{
     .avatar{
       height: 20%;
     }
-  }
-
-  .skill-wrap{
-    flex-direction: row;
-    .skill-list{
-      width: 40%;
-      height: 90%;
+    p{
+      font-size: 1.5em;
     }
   }
 
@@ -334,5 +306,8 @@ div{
 
   #about{
     height: 140vh;
+    .intro{
+      height: 32%;
+    }
   }
 }

@@ -21,7 +21,7 @@
         <circle r="150" cx="150" cy="150"/>
       </clipPath>
         <image xlink:href="https://avatars3.githubusercontent.com/u/17624513?s=400&v=4"
-        alt="Avatar" width="100%" height="100%" x="0" y="0"
+         width="100%" height="100%" x="0" y="0"
         clip-path="url(#clipCircle)"/>
         <circle r="148" cx="150" cy="150" stroke="white" stroke-width="4" fill="none"/>
     </svg>
@@ -62,70 +62,40 @@
   <section class="project-wrap">
 
     <section class="project">
-      <h2> <%= project[0][0] %> </h2>
-      <img src="project-icon.svg" alt="project-logo" class="project-icon">
       <a href="http://ruby-mastermind.com" target="_blank" class="project-info">
+        <img src="project-icon.svg" alt="project-logo" class="project-icon">
+        <h2> <%= project[0][0] %> </h2>
         <p><%= project[0][1] %></p>
-        <p><%= project[0][2] %></p>
-        <section class="tech-used">
-          <h4> <%= language[9] %> </h4>
-          <section class="tech-wrap">
-            <img src="sinatra.svg" alt="Sinatra">
-            <img src="HTML5CSS3Logos.svg" alt="Html and css">
-            <img src="Ruby_logo.svg" alt="tech">
-          </section>
-        </section>
       </a>
     </section>
 
     <section class="project">
-      <h2> <%= project[1][0] %> </h2>
-      <img src="project-icon.svg" alt="project-logo" class="project-icon">
       <a href="" target="_blank" class="project-info">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <section class="tech-used">
-          <h4> <%= language[9] %> </h4>
-          <section class="tech-wrap">
-            <img src="github.svg" alt="tech">
-            <img src="github.svg" alt="tech">
-            <img src="github.svg" alt="tech">
-            <img src="github.svg" alt="tech">
-          </section>
-        </section>
+        <img src="project-icon.svg" alt="project-logo" class="project-icon">
+        <h2> <%= project[1][0] %> </h2>
+        <p><%=project[1][1]%></p>
       </a>
     </section>
 
     <section class="project">
-      <h2> <%= project[2][0] %> </h2>
-      <img src="project-icon.svg" alt="project-logo" class="project-icon">
       <a href="" target="_blank" class="project-info">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <section class="tech-used">
-          <h4> <%= language[9] %> </h4>
-          <section class="tech-wrap">
-            <img src="github.svg" alt="tech">
-            <img src="github.svg" alt="tech">
-            <img src="github.svg" alt="tech">
-            <img src="github.svg" alt="tech">
-          </section>
-        </section>
+        <img src="project-icon.svg" alt="project-logo" class="project-icon">
+        <h2> <%= project[2][0] %> </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+           sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
+           adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+           dolore magna aliqua. Ut enim ad minim veniam.</p>
       </a>
     </section>
 
     <section class="project">
-      <h2> <%= project[3][0] %> </h2>
-      <img src="project-icon.svg" alt="project-logo" class="project-icon">
       <a href="" target="_blank" class="project-info">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <section class="tech-used">
-          <h4> <%= language[9] %> </h4>
-          <section class="tech-wrap">
-            <img src="github.svg" alt="tech">
-            <img src="github.svg" alt="tech">
-            <img src="github.svg" alt="tech">
-            <img src="github.svg" alt="tech">
-          </section>
-        </section>
+        <img src="project-icon.svg" alt="project-logo" class="project-icon">
+        <h2> <%= project[3][0] %> </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+           sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
+           adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+           dolore magna aliqua. Ut enim ad minim veniam.</p>
       </a>
     </section>
 
@@ -133,14 +103,14 @@
 </div>
 
 <div class="pale" id="skills">
-  <h1><%= language[10] %></h1>
+  <h1><%= language[9] %></h1>
   <section class="skill-wrap">
     <section class="skill-list">
-      <h2> <%= language[11] %> </h2>
+      <h2> <%= language[10] %> </h2>
     </section>
 
     <section class="skill-list">
-      <h2> <%= language[12] %> </h2>
+      <h2> <%= language[11] %> </h2>
 
     </section>
   </section>

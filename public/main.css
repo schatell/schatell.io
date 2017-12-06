@@ -190,15 +190,21 @@ div {
   width: 100%;
   height: 90%;
   position: relative; }
+  .skill-wrap .skill-diagram {
+    height: 100%;
+    width: 100%; }
+    .skill-wrap .skill-diagram line {
+      stroke: rgba(58, 61, 63, 0.5);
+      stroke-width: 7; }
   .skill-wrap .bubble {
     margin: 0;
     position: absolute;
-    border-radius: 50%;
-    border: 7px solid white;
+    border-radius: 100%;
+    border: 6px solid #336699;
     display: inline-block;
     font-size: 1.8em;
-    color: white;
-    background-color: rgba(58, 61, 63, 0.6);
+    color: #3a3d3f;
+    background-color: white;
     font-variant: small-caps;
     font-family: 'Rubik', sans-serif; }
   .skill-wrap .avatar {
@@ -216,9 +222,9 @@ div {
     background-position: center;
     background-size: 100%; }
   .skill-wrap .end {
-    height: 13vw;
-    width: 13vw;
-    line-height: 13vw; }
+    height: 14vw;
+    width: 14vw;
+    line-height: 14vw; }
   .skill-wrap .tech-category {
     height: 11vw;
     width: 11vw;
@@ -240,8 +246,8 @@ div {
     top: 20%;
     left: 32%; }
   .skill-wrap #Ruby {
-    bottom: 15%;
-    left: 45%; }
+    bottom: 18%;
+    left: 10%; }
   .skill-wrap #HTML {
     right: 0;
     top: 50%; }
@@ -250,7 +256,7 @@ div {
     left: 15%; }
   .skill-wrap #Rails {
     bottom: 23%;
-    left: 20%; }
+    left: 30%; }
   .skill-wrap #ERB {
     bottom: 10%;
     right: 7%; }

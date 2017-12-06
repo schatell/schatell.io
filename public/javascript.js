@@ -7,6 +7,7 @@ $(document).ready(function(){
       $(this).css('lineHeight', (height) + "px");
   });
   animatebubble();
+  setInterval(animatebubble, 2000);
 });
 
 
@@ -33,21 +34,19 @@ $(document).on('click', 'a[href^="#"]', function(e) {
 
 function animatebubble() {
   $('.bubble').each(function() {
-    var randomLeft = Math.floor(Math.random() * 10);
-    var randomTop = Math.floor(Math.random() * 10);
-    var randomDur = Math.floor(Math.random() * 1400);
     $(this).animate({
-      left: ("+=" + randomLeft.toString())
-    }, { duration: (randomDur), queue: true });
+      top: ("+=" + getRandomInt(1, 10).toString())
+    }, { duration: (getRandomInt(800, 1200)), queue: true });
     $(this).animate({
-      top: ("+=" + randomTop.toString())
-    }, { duration: (randomDur), queue: true });
-    $(this).animate({
-      left: ("-=" + randomLeft.toString())
-    }, { duration: (randomDur), queue: true });
-    $(this).animate({
-      top: ("-=" + randomTop.toString())
-    }, { duration: (randomDur), queue: true});
+      top: ("-=" + getRandomInt(1, 10).toString())
+    }, { duration: (getRandomInt(800, 1200)), queue: true});
   });
-  animatebubble();
+}
+
+// Return random number
+//The maximum is exclusive and the minimum is inclusive
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
 }

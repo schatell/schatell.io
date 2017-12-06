@@ -23,21 +23,6 @@ $header-height: 10vh;
   filter: opacity($value); /* W3C */
 }
 
-@mixin keyframes($animationName) {
-  @-webkit-keyframes #{$animationName} {
-    @content;
-  }
-  @-moz-keyframes #{$animationName} {
-    @content;
-  }
-  @-o-keyframes #{$animationName} {
-    @content;
-  }
-  @keyframes #{$animationName} {
-    @content;
-  }
-}
-
 /* Mobile First */
 a{
   margin: 0px 15px 20px;
@@ -264,6 +249,9 @@ div{
     font-family: 'Rubik', sans-serif;
   }
   .avatar{
+    position: absolute;
+    border-radius: 50%;
+    border: 7px solid white;
     top: 0;
     right: 0;
     left: 0;
@@ -274,11 +262,6 @@ div{
     background-image: url(https://avatars3.githubusercontent.com/u/17624513?s=400&v=4);
     background-position: center;
     background-size: 100%;
-    @keyframes hover{
-      0% {
-        transform:  
-      }
-    }
   }
   .end{
     height: 13vw;

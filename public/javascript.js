@@ -6,6 +6,7 @@ $(document).ready(function(){
       // Affect lineheight same as height of element
       $(this).css('lineHeight', (height) + "px");
   });
+  animatebubble();
 });
 
 
@@ -29,3 +30,24 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     // animated top scrolling
     $('body, html').animate({scrollTop: pos});
 });
+
+function animatebubble() {
+  $('.bubble').each(function() {
+    var randomLeft = Math.floor(Math.random() * 10);
+    var randomTop = Math.floor(Math.random() * 10);
+    var randomDur = Math.floor(Math.random() * 1400);
+    $(this).animate({
+      left: ("+=" + randomLeft.toString())
+    }, { duration: (randomDur), queue: true });
+    $(this).animate({
+      top: ("+=" + randomTop.toString())
+    }, { duration: (randomDur), queue: true });
+    $(this).animate({
+      left: ("-=" + randomLeft.toString())
+    }, { duration: (randomDur), queue: true });
+    $(this).animate({
+      top: ("-=" + randomTop.toString())
+    }, { duration: (randomDur), queue: true});
+  });
+  animatebubble();
+}

@@ -23,6 +23,21 @@ $header-height: 10vh;
   filter: opacity($value); /* W3C */
 }
 
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
+
 /* Mobile First */
 a{
   margin: 0px 15px 20px;
@@ -235,7 +250,111 @@ div{
 .skill-wrap{
   width: 100%;
   height: 90%;
-
+  position: relative;
+  .bubble{
+    margin: 0;
+    position: absolute;
+    border-radius: 50%;
+    border: 7px solid white;
+    display: inline-block;
+    font-size: 1.8em;
+    color: white;
+    background-color: rgba(58, 61, 63, 0.6);
+    font-variant: small-caps;
+    font-family: 'Rubik', sans-serif;
+  }
+  .avatar{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 30vw;
+    width: 30vw;
+    background-image: url(https://avatars3.githubusercontent.com/u/17624513?s=400&v=4);
+    background-position: center;
+    background-size: 100%;
+    @keyframes hover{
+      0% {
+        transform:  
+      }
+    }
+  }
+  .end{
+    height: 13vw;
+    width: 13vw;
+    line-height: 13vw;
+  }
+  .tech-category{
+    height: 11vw;
+    width: 11vw;
+    line-height: 11vw;
+  }
+  .tech{
+    height: 17vw;
+    width: 17vw;
+    line-height: 17vw;
+  }
+  #FrontEnd{
+    top: 35%;
+    right: 13%;
+  }
+  #BackEnd{
+    bottom: 40%;
+    left: 3%;
+  }
+  #JS{
+    top: 15%;
+    right: 25%;
+  }
+  #Css{
+    top: 20%;
+    left: 32%;
+  }
+  #Ruby{
+    bottom: 15%;
+    left: 45%;
+  }
+  #HTML{
+    right: 0;
+    top: 50%;
+  }
+  #Sinatra{
+    bottom: 3%;
+    left: 15%;
+  }
+  #Rails{
+    bottom: 23%;
+    left: 20%;
+  }
+  #ERB{
+    bottom: 10%;
+    right: 7%;
+  }
+  #SVG{
+    bottom: 27%;
+    right: 16%;
+  }
+  #Sass{
+    top: 25%;
+    left: 10%;
+  }
+  #Bootstrap{
+    top: 2%;
+    left: 5%;
+  }
+  #Jquery{
+    top: 2%;
+    right: 35%;
+  }
+  #React{
+    right: 2%;
+    top: 2%;
+  }
+  #Vue{
+    right: 2%;
+    top: 20%;
+  }
 }
 
 .pale{

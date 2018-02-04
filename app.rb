@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'rewrelic_rpm'
+require 'newrelic_rpm'
 require 'sinatra/reloader' if development?
 
 

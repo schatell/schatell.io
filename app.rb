@@ -2,6 +2,11 @@ require 'sinatra'
 require 'newrelic_rpm'
 require 'sinatra/reloader' if development?
 
+require "sinatra/config_file"
+
+config_file 'newrelic.yml'
+
+
 
 english = ["About me", "Projects", "Skills", "Hi!", "My name is Sebastien,",
 "I'm a self-taught web developer and passionated by the modern web! I like

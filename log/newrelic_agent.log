@@ -1,0 +1,14 @@
+# Logfile created on 2018-02-04 01:03:29 -0500 by logger.rb/56438
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Starting the New Relic agent version 4.8.0.341 in "development" environment.
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Environment: development
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : No known dispatcher detected.
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Application: My Application (Development)
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Installing Net instrumentation
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Installing Sinatra instrumentation
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Finished instrumentation
+[2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-02-04 01:03:32 -0500 sebastien-computer (8554)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1871688/applications/104479142

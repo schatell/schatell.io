@@ -12,3 +12,40 @@
 [2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Finished instrumentation
 [2018-02-04 01:03:29 -0500 sebastien-computer (8554)] INFO : Doing deferred dependency-detection before Rack startup
 [2018-02-04 01:03:32 -0500 sebastien-computer (8554)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1871688/applications/104479142
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : Starting the New Relic agent version 4.8.0.341 in "development" environment.
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] WARN : No configuration file found. Working directory = /home/sebastien/Documents/prog-seb/schatell.io
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] WARN : Looked in these locations (based on defaults): /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/.newrelic/newrelic.yml, /home/sebastien/newrelic.yml
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : Environment: development
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : No known dispatcher detected.
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : Application: development
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : Installing Net instrumentation
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : Installing Sinatra instrumentation
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : Finished instrumentation
+[2018-09-18 16:27:30 -0400 sebastien-computer (15072)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : Starting the New Relic agent version 4.8.0.341 in "development" environment.
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] WARN : No configuration file found. Working directory = /home/sebastien/Documents/prog-seb/schatell.io
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] WARN : Looked in these locations (based on defaults): /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/.newrelic/newrelic.yml, /home/sebastien/newrelic.yml
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : Environment: development
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : No known dispatcher detected.
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : Application: development
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : Installing Net instrumentation
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : Installing Sinatra instrumentation
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : Finished instrumentation
+[2018-09-18 16:27:46 -0400 sebastien-computer (15086)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-09-18 16:27:58 -0400 sebastien-computer (15086)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-09-18 16:27:58 -0400 sebastien-computer (15086)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-09-18 16:27:58 -0400 sebastien-computer (15086)] INFO : Will re-attempt in 60 seconds
+[2018-09-18 16:29:00 -0400 sebastien-computer (15086)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-09-18 16:29:00 -0400 sebastien-computer (15086)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-09-18 16:29:00 -0400 sebastien-computer (15086)] INFO : Will re-attempt in 120 seconds
+[2018-09-18 16:31:03 -0400 sebastien-computer (15086)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-09-18 16:31:03 -0400 sebastien-computer (15086)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-09-18 16:31:03 -0400 sebastien-computer (15086)] INFO : Will re-attempt in 180 seconds

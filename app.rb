@@ -62,3 +62,7 @@ end
 get '/' do
   redirect '/en'
 end
+
+get '/band' do
+  erb :band
+end

@@ -1,162 +1,179 @@
-<header>
-    <% if @francais %>
-      <a href="./en" class="button"><img src="EN.svg" alt="English version"></a>
-    <% else %>
-      <a href="./fr" class="button"><img src="FR.svg" alt="French version"></a>
-    <% end %>
-  <nav>
-    <a href="#about" class="nav-link"><%= language[0] %></a>
-    <a href="#projects" class="nav-link"><%= language[1] %></a>
-    <a href="#skills" class="nav-link"><%= language[2] %></a>
-  </nav>
-</header>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:700|Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+  <body>
+    <header>
+        <% if @francais %>
+          <a href="./en" class="button"><img src="EN.svg" alt="English version"></a>
+        <% else %>
+          <a href="./fr" class="button"><img src="FR.svg" alt="French version"></a>
+        <% end %>
+      <nav>
+        <a href="#about" class="nav-link"><%= language[0] %></a>
+        <a href="#projects" class="nav-link"><%= language[1] %></a>
+        <a href="#skills" class="nav-link"><%= language[2] %></a>
+      </nav>
+    </header>
 
-<div class="pale" id="about">
+    <div class="pale" id="about">
 
-  <h1><%= language[3] %></h1>
+      <h1><%= language[3] %></h1>
 
-  <section class="intro">
-    <svg class="avatar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-      <clipPath id="clipCircle">
-        <circle r="150" cx="150" cy="150"/>
-      </clipPath>
-        <image xlink:href="https://avatars3.githubusercontent.com/u/17624513?s=400&v=4"
-         width="100%" height="100%" x="0" y="0"
-        clip-path="url(#clipCircle)"/>
-        <circle r="148" cx="150" cy="150" stroke="white" stroke-width="4" fill="none"/>
-    </svg>
+      <section class="intro">
+        <svg class="avatar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+          <clipPath id="clipCircle">
+            <circle r="150" cx="150" cy="150"/>
+          </clipPath>
+            <image xlink:href="https://avatars3.githubusercontent.com/u/17624513?s=400&v=4"
+             width="100%" height="100%" x="0" y="0"
+            clip-path="url(#clipCircle)"/>
+            <circle r="148" cx="150" cy="150" stroke="white" stroke-width="4" fill="none"/>
+        </svg>
 
-    <section class="social-wrap">
-      <a href="https://medium.com/@schatell" target="_blank">
-        <img class="logo" src="medium-m-2.svg" alt="me on medium">
-      </a>
+        <section class="social-wrap">
+          <a href="https://medium.com/@schatell" target="_blank">
+            <img class="logo" src="medium-m-2.svg" alt="me on medium">
+          </a>
 
-      <a href="https://twitter.com/Schatblanc" target="_blank">
-        <img class="logo" src="Twitter_bird_logo_2012.svg" alt="me on twitter">
-      </a>
+          <a href="https://twitter.com/Schatblanc" target="_blank">
+            <img class="logo" src="Twitter_bird_logo_2012.svg" alt="me on twitter">
+          </a>
 
-      <a href="https://github.com/schatell/" target="_blank">
-        <img class="logo" src="github.svg" alt="me on github">
-      </a>
+          <a href="https://github.com/schatell/" target="_blank">
+            <img class="logo" src="github.svg" alt="me on github">
+          </a>
 
-      <a href="https://www.linkedin.com/in/sebastien-chatelle-blanchard-a5a3b4137/" target="_blank">
-        <img class="logo" src="linkedin.svg" alt="me on LinkedIn">
-      </a>
+          <a href="https://www.linkedin.com/in/sebastien-chatelle-blanchard-a5a3b4137/" target="_blank">
+            <img class="logo" src="linkedin.svg" alt="me on LinkedIn">
+          </a>
 
-    </section>
-  </section>
+        </section>
+      </section>
 
-  <section class="presentation">
-    <h2><%= language[4] %></h2>
-    <p><%= language[5] %></p>
-    <p><%= language[6] %></p>
-    <h2><%= language[7] %></h2>
-    <h4>sebastien.chatelle.blanchard@gmail.com</h4>
-  </section>
+      <section class="presentation">
+        <h2><%= language[4] %></h2>
+        <p><%= language[5] %></p>
+        <p><%= language[6] %></p>
+        <h2><%= language[7] %></h2>
+        <h4>sebastien.chatelle.blanchard@gmail.com</h4>
+      </section>
 
-</div>
+    </div>
 
-<div class="dark" id="projects">
-  <h1><%= language[8] %></h1>
+    <div class="dark" id="projects">
+      <h1><%= language[8] %></h1>
 
-  <section class="project-wrap">
+      <section class="project-wrap">
 
-    <section class="project">
-      <a href="http://ruby-mastermind.com" target="_blank" class="project-info">
-        <img src="project-icon.svg" alt="project-logo" class="project-icon">
-        <h2> <%= project[0][0] %> </h2>
-        <p><%= project[0][1] %></p>
-      </a>
-    </section>
+        <section class="project">
+          <a href="http://ruby-mastermind.com" target="_blank" class="project-info">
+            <img src="project-icon.svg" alt="project-logo" class="project-icon">
+            <h2> <%= project[0][0] %> </h2>
+            <p><%= project[0][1] %></p>
+          </a>
+        </section>
 
-    <section class="project">
-      <a href="" target="_blank" class="project-info">
-        <img src="project-icon.svg" alt="project-logo" class="project-icon">
-        <h2> <%= project[1][0] %> </h2>
-        <p><%=project[1][1]%></p>
-      </a>
-    </section>
+        <section class="project">
+          <a href="" target="_blank" class="project-info">
+            <img src="project-icon.svg" alt="project-logo" class="project-icon">
+            <h2> <%= project[1][0] %> </h2>
+            <p><%=project[1][1]%></p>
+          </a>
+        </section>
 
-    <section class="project">
-      <a href="" target="_blank" class="project-info">
-        <img src="project-icon.svg" alt="project-logo" class="project-icon">
-        <h2> <%= project[2][0] %> </h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-           sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
-           adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-           dolore magna aliqua. Ut enim ad minim veniam.</p>
-      </a>
-    </section>
+        <section class="project">
+          <a href="" target="_blank" class="project-info">
+            <img src="project-icon.svg" alt="project-logo" class="project-icon">
+            <h2> <%= project[2][0] %> </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+               sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
+               adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+               dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </a>
+        </section>
 
-    <section class="project">
-      <a href="" target="_blank" class="project-info">
-        <img src="project-icon.svg" alt="project-logo" class="project-icon">
-        <h2> <%= project[3][0] %> </h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-           sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
-           adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-           dolore magna aliqua. Ut enim ad minim veniam.</p>
-      </a>
-    </section>
+        <section class="project">
+          <a href="" target="_blank" class="project-info">
+            <img src="project-icon.svg" alt="project-logo" class="project-icon">
+            <h2> <%= project[3][0] %> </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+               sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
+               adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+               dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </a>
+        </section>
 
-  </section>
-</div>
+      </section>
+    </div>
 
-<div class="pale" id="skills">
-  <h1><%= language[9] %></h1>
-  <section class="skill-wrap">
-    <svg version="1.1"
-         baseProfile="full"
-         xmlns="http://www.w3.org/2000/svg"
-         class="skill-diagram">
+    <div class="pale" id="skills">
+      <h1><%= language[9] %></h1>
+      <section class="skill-wrap">
+        <svg version="1.1"
+             baseProfile="full"
+             xmlns="http://www.w3.org/2000/svg"
+             class="skill-diagram">
 
-      <line id="Av-to-Front" x1="50%" y1="50%" x2="77%" y2="40%"/>
-      <line id="Av-to-end" x1="50%" y1="50%" x2="13%" y2="55%" />
-      <line id="Front-to-Css" x1="77%" y1="40%" x2="40%" y2="24%"/>
-      <line id="Front-to-Js" x1="77%" y1="40%" x2="68%" y2="19%"/>
-      <line id="Front-to-HTML" x1="77%" y1="40%" x2="92%" y2="55%"/>
-      <line id="Front-to-SVG" x1="77%" y1="40%" x2="73%" y2="67%"/>
-      <line id="Back-to-Ruby" x1="13%" y1="55%" x2="17%" y2="78%"/>
-      <line id="Css-to-Sass" x1="40%" y1="24%" x2="22%" y2="32%"/>
-      <line id="Css-to-BS" x1="40%" y1="24%" x2="15%" y2="8%"/>
-      <line id="Js-to-Jquery" x1="68%" y1="19%" x2="54%" y2="9%"/>
-      <line id="Js-to-React" x1="68%" y1="19%" x2="87%" y2="9%"/>
-      <line id="Js-to-Vue" x1="68%" y1="19%" x2="87%" y2="27%"/>
-      <line id="HTML-to-SVG" x1="92%" y1="55%" x2="73%" y2="67%"/>
-      <line id="HTML-to-ERB" x1="92%" y1="55%" x2="81%" y2="84%"/>
-      <line id="Ruby-to-Rails" x1="17%" y1="78%" x2="41%" y2="71%"/>
-      <line id="Ruby-to-Sinatra" x1="17%" y1="78%" x2="25%" y2="91%"/>
-      <line id="Ruby-to-ERB" x1="17%" y1="78%" x2="81%" y2="84%"/>
+          <line id="Av-to-Front" x1="50%" y1="50%" x2="77%" y2="40%"/>
+          <line id="Av-to-end" x1="50%" y1="50%" x2="13%" y2="55%" />
+          <line id="Front-to-Css" x1="77%" y1="40%" x2="40%" y2="24%"/>
+          <line id="Front-to-Js" x1="77%" y1="40%" x2="68%" y2="19%"/>
+          <line id="Front-to-HTML" x1="77%" y1="40%" x2="92%" y2="55%"/>
+          <line id="Front-to-SVG" x1="77%" y1="40%" x2="73%" y2="67%"/>
+          <line id="Back-to-Ruby" x1="13%" y1="55%" x2="17%" y2="78%"/>
+          <line id="Css-to-Sass" x1="40%" y1="24%" x2="22%" y2="32%"/>
+          <line id="Css-to-BS" x1="40%" y1="24%" x2="15%" y2="8%"/>
+          <line id="Js-to-Jquery" x1="68%" y1="19%" x2="54%" y2="9%"/>
+          <line id="Js-to-React" x1="68%" y1="19%" x2="87%" y2="9%"/>
+          <line id="Js-to-Vue" x1="68%" y1="19%" x2="87%" y2="27%"/>
+          <line id="HTML-to-SVG" x1="92%" y1="55%" x2="73%" y2="67%"/>
+          <line id="HTML-to-ERB" x1="92%" y1="55%" x2="81%" y2="84%"/>
+          <line id="Ruby-to-Rails" x1="17%" y1="78%" x2="41%" y2="71%"/>
+          <line id="Ruby-to-Sinatra" x1="17%" y1="78%" x2="25%" y2="91%"/>
+          <line id="Ruby-to-ERB" x1="17%" y1="78%" x2="81%" y2="84%"/>
 
-  </svg>
+      </svg>
 
-    <a href="#" class="avatar" ></a>
-    <a href="#" class="end bubble" id="FrontEnd">FrontEnd</a>
-    <a href="#" class="end bubble" id="BackEnd">BackEnd</a>
-    <a href="#" class="tech-category bubble" id="JS">JS</a>
-    <a href="#" class="tech-category bubble" id="Css">Css</a>
-    <a href="#" class="tech-category bubble" id="Ruby">Ruby</a>
-    <a href="#" class="tech-category bubble" id="HTML">HTML</a>
-    <a href="#" class="tech bubble" id="Sinatra">Sinatra</a>
-    <a href="#" class="tech bubble" id="Rails">Rails</a>
-    <a href="#" class="tech bubble" id="ERB">ERB</a>
-    <a href="#" class="tech bubble" id="SVG">SVG</a>
-    <a href="#" class="tech bubble" id="Sass">Sass</a>
-    <a href="#" class="tech bubble" id="Bootstrap">Bootstrap</a>
-    <a href="#" class="tech bubble" id="Jquery">Jquery</a>
-    <a href="#" class="tech bubble" id="React">React</a>
-    <a href="#" class="tech bubble" id="Vue">Vue</a>
+        <a href="#" class="avatar" ></a>
+        <a href="#" class="end bubble" id="FrontEnd">FrontEnd</a>
+        <a href="#" class="end bubble" id="BackEnd">BackEnd</a>
+        <a href="#" class="tech-category bubble" id="JS">JS</a>
+        <a href="#" class="tech-category bubble" id="Css">Css</a>
+        <a href="#" class="tech-category bubble" id="Ruby">Ruby</a>
+        <a href="#" class="tech-category bubble" id="HTML">HTML</a>
+        <a href="#" class="tech bubble" id="Sinatra">Sinatra</a>
+        <a href="#" class="tech bubble" id="Rails">Rails</a>
+        <a href="#" class="tech bubble" id="ERB">ERB</a>
+        <a href="#" class="tech bubble" id="SVG">SVG</a>
+        <a href="#" class="tech bubble" id="Sass">Sass</a>
+        <a href="#" class="tech bubble" id="Bootstrap">Bootstrap</a>
+        <a href="#" class="tech bubble" id="Jquery">Jquery</a>
+        <a href="#" class="tech bubble" id="React">React</a>
+        <a href="#" class="tech bubble" id="Vue">Vue</a>
 
-  </section>
+      </section>
 
-  <section class="presentation">
-    <h2><%= language[7] %></h2>
-    <h4>sebastien.chatelle.blanchard@gmail.com</h4>
-  </section>
+      <section class="presentation">
+        <h2><%= language[7] %></h2>
+        <h4>sebastien.chatelle.blanchard@gmail.com</h4>
+      </section>
 
-</div>
+    </div>
 
-<footer>
-  <p>Copyright: Sebastien Chatelle Blanchard</p>
-  <p>sebastien.chatelle.blanchard@gmail.com</p>
-</footer>
+    <footer>
+      <p>Copyright: Sebastien Chatelle Blanchard</p>
+      <p>sebastien.chatelle.blanchard@gmail.com</p>
+    </footer>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript.js"></script>
+
+  </script>
+</html>

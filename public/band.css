@@ -1,0 +1,78 @@
+/* Variables */
+/* Mixin */
+/* General rules */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: white; }
+
+/* Mobile First */
+body {
+  background-color: #33506e; }
+
+.hero {
+  width: 100%;
+  height: 35vh;
+  background-image: url("audience-band-blur-mod.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+  .hero .logo {
+    padding: 10px;
+    top: 35%;
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    border: 10px solid white;
+    transform: skewX(-35deg); }
+  .hero h1 {
+    box-sizing: content-box;
+    font-size: 6em;
+    transform: skewX(35deg); }
+
+.tour {
+  margin-top: 20%;
+  padding-bottom: 20%;
+  width: 100%;
+  text-align: center; }
+  .tour h2 {
+    font-size: 4.5em;
+    padding-bottom: 1.5em; }
+  .tour .tour-info {
+    width: 94%;
+    margin-left: 3%; }
+    .tour .tour-info .list-header {
+      padding-bottom: 3.5em; }
+      .tour .tour-info .list-header li {
+        font-family: 'Montserrat', sans-serif; }
+    .tour .tour-info ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-bottom: 2.5em; }
+      .tour .tour-info ul li {
+        margin: auto;
+        width: 33%;
+        font-family: 'Bitter', serif;
+        color: white;
+        font-size: 2.5em; }
+
+.bio {
+  padding-top: 20%;
+  background-color: white; }
+  .bio .member {
+    margin-top: 8%;
+    width: 65%;
+    height: 15vh;
+    background-color: #33506e; }
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+
+/*# sourceMappingURL=band.css.map */

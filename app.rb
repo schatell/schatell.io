@@ -24,12 +24,10 @@ projectsf = [
                 'Mastermind'. Les principaux défis consistaient à donner un
                 retour d'information automatique à l'utilisateur et à écrire
                 une IA (assez stupide) pour concurrencer l'utilisateur."],
-              ["Archery3dvantage", "Ceci est mon projet personnel. J'ai
-                construit cette application web en collaboration avec ma femme,
-                également développeur Web. Il s'agit d'un site Web qui vous aide
-                à garder une trace de vos scores en tir à l'arc 3D. Il aide
-                également l'utilisateur à identifier les erreurs courantes par
-                type de cible."],
+              ["Site Groupe de Musique", "C’est un modèle de site Web que j’ai
+                créé pour mettre en valeur mes compétences en design et CSS.
+                Ce projet particulier utilise une approche mobile d'abord et est
+                construit en utilisant la technologie Flexbox."],
               ["Projet3"],
               ["Projet4"]
             ]
@@ -40,11 +38,9 @@ projectse = [
                 game. The main challenges consisted of giving automatic feedback
                 to the user, and writing a (pretty stupid) AI to compete against
                 the user."],
-              ["Archery3dvantage", "This is my personal pet project. I built
-                this web app teaming with my wife, also a web developer.
-                This is a website that helps you keep track of your scores in 3d
-                archery. It also helps the user to identify common mistake by
-                target type."],
+              ["Band Website", "This is a mockup website that I did to showcase
+                 my skills in design and CSS. This particular project uses a
+                 mobile-first approach and is build using the flexbox technology."],
               ["Project3"],
               ["Project4"]
             ]

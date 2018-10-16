@@ -62,3 +62,7 @@ end
 get '/band' do
   erb :band
 end
+
+get '/travel' do
+  erb :travel
+end

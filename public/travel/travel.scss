@@ -1,0 +1,132 @@
+/* Variables */
+/* Mixin */
+/* General rules */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  letter-spacing: 5px;
+}
+
+a,
+p {
+  font-family: 'Lora', serif;
+}
+/* Mobile First */
+body {
+  display: grid;
+  grid-template-columns: 10% 33% auto 33% 10%;
+  grid-template-rows: 8% 5% 40% 25% 10% auto;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("backgroundmobile2.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  grid-row: 1;
+  grid-column: 1 / span 5;
+  display: grid;
+  grid-template-columns: 33% auto 33%;
+
+  a {
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 10%;
+    color: white;
+    text-decoration: none;
+    font-size: 4em;
+    font-weight: 700;
+  }
+}
+
+.text-box {
+  grid-column: 1 / span 5;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: auto 5% 5%;
+  align-items: center;
+  justify-items: center;
+  .arrow-left {
+    &:hover {
+      cursor: pointer;
+    }
+    grid-column: 1;
+    grid-row: 1;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 80px solid white;
+  }
+  .arrow-right {
+    &:hover {
+      cursor: pointer;
+    }
+    grid-column: 3;
+    grid-row: 1;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 80px solid white;
+  }
+  p {
+    grid-column: 2;
+    grid-row: 1;
+    font-style: italic;
+    color: white;
+    font-size: 2.9em;
+    text-align: center;
+    display: none;
+  }
+
+  .indicators {
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-items: center;
+    .rect {
+      height: 1.5vh;
+      width: 1.5vh;
+      background-color: white;
+      opacity: 0.25;
+      border-radius: 50%;
+    }
+  }
+}
+
+h1 {
+  justify-self: center;
+  align-self: start;
+  font-size: 10em;
+  grid-column: 2 / span 2;
+  grid-row: 5 / span 1;
+}
+
+h2 {
+  justify-self: center;
+  align-self: end;
+  font-size: 8em;
+  grid-column: 1 /span 2;
+  grid-row: 4 / span 1;
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    background-image: url("backgrounddesktop.jpg");
+  }
+}

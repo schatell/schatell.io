@@ -5,14 +5,14 @@
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Rubik:700|Work+Sans" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="portfolio/portfolio.css">
   </head>
   <body>
     <header>
         <% if @francais %>
-          <a href="./en" class="button"><img src="EN.svg" alt="English version"></a>
+          <a href="./en" class="button"><img src="portfolio/EN.svg" alt="English version"></a>
         <% else %>
-          <a href="./fr" class="button"><img src="FR.svg" alt="French version"></a>
+          <a href="./fr" class="button"><img src="portfolio/FR.svg" alt="French version"></a>
         <% end %>
       <nav>
         <a href="#about" class="nav-link"><%= language[0] %></a>
@@ -38,19 +38,19 @@
 
         <section class="social-wrap">
           <a href="https://medium.com/@schatell" target="_blank">
-            <img class="logo" src="medium-m-2.svg" alt="me on medium">
+            <img class="logo" src="portfolio/medium-m-2.svg" alt="me on medium">
           </a>
 
           <a href="https://twitter.com/Schatblanc" target="_blank">
-            <img class="logo" src="Twitter_bird_logo_2012.svg" alt="me on twitter">
+            <img class="logo" src="portfolio/Twitter_bird_logo_2012.svg" alt="me on twitter">
           </a>
 
           <a href="https://github.com/schatell/" target="_blank">
-            <img class="logo" src="github.svg" alt="me on github">
+            <img class="logo" src="portfolio/github.svg" alt="me on github">
           </a>
 
           <a href="https://www.linkedin.com/in/sebastien-chatelle-blanchard-a5a3b4137/" target="_blank">
-            <img class="logo" src="linkedin.svg" alt="me on LinkedIn">
+            <img class="logo" src="portfolio/linkedin.svg" alt="me on LinkedIn">
           </a>
 
         </section>
@@ -73,7 +73,7 @@
 
         <section class="project">
           <a href="http://ruby-mastermind.com" target="_blank" class="project-info">
-            <img src="project-icon.svg" alt="project-logo" class="project-icon">
+            <img src="portfolio/project-icon.svg" alt="project-logo" class="project-icon">
             <h2> <%= project[0][0] %> </h2>
             <p><%= project[0][1] %></p>
           </a>
@@ -81,7 +81,7 @@
 
         <section class="project">
           <a href="/band" class="project-info">
-            <img src="bandproject.png" alt="project-logo" class="project-icon">
+            <img src="portfolio/bandproject.png" alt="project-logo" class="project-icon">
             <h2> <%= project[1][0] %> </h2>
             <p><%=project[1][1]%></p>
           </a>
@@ -89,7 +89,7 @@
 
         <section class="project">
           <a href="" target="_blank" class="project-info">
-            <img src="project-icon.svg" alt="project-logo" class="project-icon">
+            <img src="portfolio/project-icon.svg" alt="project-logo" class="project-icon">
             <h2> <%= project[2][0] %> </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
@@ -100,7 +100,7 @@
 
         <section class="project">
           <a href="" target="_blank" class="project-info">
-            <img src="project-icon.svg" alt="project-logo" class="project-icon">
+            <img src="portfolio/project-icon.svg" alt="project-logo" class="project-icon">
             <h2> <%= project[3][0] %> </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
@@ -173,7 +173,7 @@
 
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascript.js"></script>
+  <script type="text/javascript" src="portfolio/javascript.js"></script>
 
   </script>
 </html>

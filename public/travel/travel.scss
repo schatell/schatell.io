@@ -71,9 +71,9 @@ body {
     grid-row: 1;
     width: 0;
     height: 0;
-    border-top: 1em solid transparent;
-    border-bottom: 1em solid transparent;
-    border-right: 2em solid white;
+    border-top: 1.5em solid transparent;
+    border-bottom: 1.5em solid transparent;
+    border-right: 3em solid white;
   }
   .arrow-right {
     &:hover {
@@ -83,16 +83,14 @@ body {
     grid-row: 1;
     width: 0;
     height: 0;
-    border-top: 1em solid transparent;
-    border-bottom: 1em solid transparent;
-    border-left: 2em solid white;
+    border-top: 1.5em solid transparent;
+    border-bottom: 1.5em solid transparent;
+    border-left: 3em solid white;
   }
   p {
     grid-column: 2;
     grid-row: 1;
     font-style: italic;
-    font-size: 1em;
-    line-height: 1em;
     text-align: center;
     display: none;
   }

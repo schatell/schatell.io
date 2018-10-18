@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   $(".arrow-right").click(function() {
     $("#text" + counter).fadeOut("fast", 0);
-    $("#rect" + counter).animate({"opacity": "0.25"}, "fast")
+    $("#rect" + counter).animate({"opacity": "0.6"}, "fast")
     if (counter >= 3) {
       counter = 0;
     } else {
@@ -20,7 +20,7 @@ $(document).ready(function() {
 
   $(".arrow-left").click(function() {
     $("#text" + counter).fadeOut("fast", 0);
-    $("#rect" + counter).animate({"opacity": "0.25"}, "fast")
+    $("#rect" + counter).animate({"opacity": "0.6"}, "fast")
     if (counter <= 0) {
       counter = 3;
     } else {

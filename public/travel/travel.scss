@@ -26,7 +26,6 @@ p {
 body {
   height: 100vh;
   width: 100vw;
-  overflow: auto;
   display: grid;
   grid-template-columns: 10% 33% auto 33% 10%;
   grid-template-rows: 8% 3% 44% 23% 10% auto;
@@ -43,6 +42,7 @@ body {
   display: grid;
   grid-template-columns: 33% auto 33%;
   a {
+    text-transform: uppercase;
     justify-self: center;
     align-self: end;
     margin-bottom: 10%;
@@ -62,29 +62,22 @@ body {
   grid-template-rows: auto 5% 5% 5%;
   align-items: center;
   justify-items: center;
-
-  .arrow-left {
+  .arrow {
+    width: 0;
+    height: 0;
+    grid-row: 1 / span 4;
+    border-top: 1.5em solid transparent;
+    border-bottom: 1.5em solid transparent;
     &:hover {
       cursor: pointer;
     }
+  }
+  .arrow-left {
     grid-column: 1;
-    grid-row: 1;
-    width: 0;
-    height: 0;
-    border-top: 1.5em solid transparent;
-    border-bottom: 1.5em solid transparent;
     border-right: 3em solid white;
   }
   .arrow-right {
-    &:hover {
-      cursor: pointer;
-    }
     grid-column: 3;
-    grid-row: 1;
-    width: 0;
-    height: 0;
-    border-top: 1.5em solid transparent;
-    border-bottom: 1.5em solid transparent;
     border-left: 3em solid white;
   }
   p {
@@ -93,8 +86,8 @@ body {
     font-style: italic;
     text-align: center;
     display: none;
-  }
 
+  }
   .indicators {
     height: 100%;
     width: 100%;
@@ -104,11 +97,11 @@ body {
     grid-template-columns: 25% 25% 25% 25%;
     align-items: center;
     justify-items: center;
-    .rect {
+    .circle {
       height: 1.5vh;
       width: 1.5vh;
       background-color: white;
-      opacity: 0.25;
+      opacity: 0.6;
       border-radius: 50%;
     }
   }
@@ -119,7 +112,7 @@ h1 {
   align-self: start;
   font-size: 10em;
   grid-column: 2 / span 2;
-  grid-row: 5 / span 1;
+  grid-row: 5 ;
 }
 
 h2 {
@@ -127,13 +120,72 @@ h2 {
   align-self: end;
   font-size: 8em;
   grid-column: 1 /span 2;
-  grid-row: 4 / span 1;
+  grid-row: 4;
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  h1, h2 {
+    padding: 0;
+  }
   body {
     background-image: url("backgrounddesktop.jpg");
+    background-position: center;
+    grid-template-columns: 5% 45% auto 20% 20% 5%;
+    grid-template-rows: 7% 6% 44% 15% 18% auto;
+  }
+
+  .menu {
+    grid-column: 4 / span 3;
+    a {
+      margin-bottom: 0;
+      transition: 0.2s;
+      color: rgb(255, 255, 255);
+      opacity: 0.6;
+      font-size: 2em;
+      &:hover {
+        transition: 0.3s;
+        opacity: 1;
+      }
+    }
+  }
+
+  .text-box {
+    grid-column: 2;
+    grid-template-columns: 10% 80% 10%;
+    border-radius: 1%;
+    .arrow {
+      transition: 0.2s;
+      opacity: 0.6;
+      border-top: 1em solid transparent;
+      border-bottom: 1em solid transparent;
+      &:hover {
+        transition: 0.3s;
+        opacity: 1;
+      }
+    }
+    .arrow-left {
+      border-right: 2em solid white;
+    }
+    .arrow-right {
+      border-left: 2em solid white;
+    }
+    p {
+      font-size: 1.5em;
+      line-height: 1.3em;
+    }
+  }
+
+  h1 {
+    font-size: 9em;
+    grid-column: 4 / span 2;
+    grid-row: 5;
+  }
+
+  h2 {
+    font-size: 7em;
+    grid-column: 4;
+    grid-row: 4;
   }
 }

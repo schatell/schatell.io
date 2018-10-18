@@ -1,6 +1,9 @@
 /* Variables */
 /* Mixin */
 /* General rules */
+html {
+  overflow: hidden; }
+
 h1,
 h2,
 h3,
@@ -9,6 +12,7 @@ h5,
 h6 {
   font-family: 'Anton', sans-serif;
   color: white;
+  padding-left: 0.6em;
   letter-spacing: 5px; }
 
 a,

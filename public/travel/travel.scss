@@ -15,31 +15,32 @@ h6 {
 a,
 p {
   font-family: 'Lora', serif;
+  color: white;
 }
 /* Mobile First */
 body {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
   display: grid;
   grid-template-columns: 10% 33% auto 33% 10%;
   grid-template-rows: 8% 3% 44% 23% 10% auto;
-  height: 100vh;
-  width: 100vw;
-  background-image: url("backgroundmobile2.jpg");
+  background-image: url("backgroundmobile.jpg");
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .menu {
+  max-width: 100vw;
   grid-row: 1;
   grid-column: 1 / span 5;
   display: grid;
   grid-template-columns: 33% auto 33%;
-
   a {
     justify-self: center;
     align-self: end;
     margin-bottom: 10%;
-    color: white;
     text-decoration: none;
     font-size: 4em;
     font-weight: 700;
@@ -47,14 +48,16 @@ body {
 }
 
 .text-box {
-  background-color: rgba(0, 0, 0, 0.3);
+  max-width: 100vw;
+  background-color: rgba(0, 0, 0, 0.25);
   grid-column: 1 / span 5;
   grid-row: 3;
   display: grid;
-  grid-template-columns: 15% auto 15%;
+  grid-template-columns: 15% 70% 15%;
   grid-template-rows: auto 5% 5% 5%;
   align-items: center;
   justify-items: center;
+
   .arrow-left {
     &:hover {
       cursor: pointer;
@@ -63,9 +66,9 @@ body {
     grid-row: 1;
     width: 0;
     height: 0;
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-right: 80px solid white;
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    border-right: 2em solid white;
   }
   .arrow-right {
     &:hover {
@@ -75,15 +78,14 @@ body {
     grid-row: 1;
     width: 0;
     height: 0;
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-left: 80px solid white;
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    border-left: 2em solid white;
   }
   p {
     grid-column: 2;
     grid-row: 1;
     font-style: italic;
-    color: white;
     font-size: 1em;
     line-height: 1em;
     text-align: center;

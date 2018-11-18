@@ -840,3 +840,271 @@
 [2018-10-18 17:20:50 -0400 sebastien-computer (9620)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
 [2018-10-18 17:20:50 -0400 sebastien-computer (9620)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
 [2018-10-18 17:20:50 -0400 sebastien-computer (9620)] INFO : Will re-attempt in 600 seconds
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : Starting the New Relic agent version 4.8.0.341 in "development" environment.
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] WARN : No configuration file found. Working directory = /home/sebastien/Documents/prog-seb/schatell.io
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] WARN : Looked in these locations (based on defaults): /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/.newrelic/newrelic.yml, /home/sebastien/newrelic.yml
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : Environment: development
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : No known dispatcher detected.
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : Application: development
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : Installing Net instrumentation
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : Installing Sinatra instrumentation
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : Finished instrumentation
+[2018-10-18 17:36:51 -0400 sebastien-computer (18435)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-10-18 17:37:45 -0400 sebastien-computer (18435)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-18 17:37:45 -0400 sebastien-computer (18435)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-18 17:37:45 -0400 sebastien-computer (18435)] INFO : Will re-attempt in 60 seconds
+[2018-10-18 17:38:47 -0400 sebastien-computer (18435)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-18 17:38:47 -0400 sebastien-computer (18435)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-18 17:38:47 -0400 sebastien-computer (18435)] INFO : Will re-attempt in 120 seconds
+[2018-10-18 17:40:49 -0400 sebastien-computer (18435)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-18 17:40:49 -0400 sebastien-computer (18435)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-18 17:40:49 -0400 sebastien-computer (18435)] INFO : Will re-attempt in 180 seconds
+[2018-10-18 17:43:52 -0400 sebastien-computer (18435)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-18 17:43:52 -0400 sebastien-computer (18435)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-18 17:43:52 -0400 sebastien-computer (18435)] INFO : Will re-attempt in 240 seconds
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : Starting the New Relic agent version 4.8.0.341 in "development" environment.
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] WARN : No configuration file found. Working directory = /home/sebastien/Documents/prog-seb/schatell.io
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] WARN : Looked in these locations (based on defaults): /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/.newrelic/newrelic.yml, /home/sebastien/newrelic.yml
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : Environment: development
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : No known dispatcher detected.
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : Application: development
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : Installing Net instrumentation
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : Installing Sinatra instrumentation
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : Finished instrumentation
+[2018-10-24 18:36:40 -0400 sebastien-computer (4002)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-10-24 18:36:44 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 18:36:44 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 18:36:44 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 60 seconds
+[2018-10-24 18:37:46 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 18:37:46 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 18:37:46 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 120 seconds
+[2018-10-24 18:39:48 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 18:39:48 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 18:39:48 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 180 seconds
+[2018-10-24 18:42:50 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 18:42:50 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 18:42:50 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 240 seconds
+[2018-10-24 18:46:53 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 18:46:53 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 18:46:53 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 300 seconds
+[2018-10-24 18:51:55 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 18:51:55 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 18:51:55 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 360 seconds
+[2018-10-24 18:57:57 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 18:57:57 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 18:57:57 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 420 seconds
+[2018-10-24 19:04:59 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 19:04:59 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 19:04:59 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 480 seconds
+[2018-10-24 19:13:02 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 19:13:02 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 19:13:02 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 540 seconds
+[2018-10-24 19:22:04 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 19:22:04 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 19:22:04 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 600 seconds
+[2018-10-24 19:32:06 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 19:32:06 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 19:32:06 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 600 seconds
+[2018-10-24 19:42:08 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 19:42:08 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 19:42:08 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 600 seconds
+[2018-10-24 19:52:10 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 19:52:10 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 19:52:10 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 600 seconds
+[2018-10-24 20:02:13 -0400 sebastien-computer (4002)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-24 20:02:13 -0400 sebastien-computer (4002)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-24 20:02:13 -0400 sebastien-computer (4002)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : Starting the New Relic agent version 4.8.0.341 in "development" environment.
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] WARN : No configuration file found. Working directory = /home/sebastien/Documents/prog-seb/schatell.io
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] WARN : Looked in these locations (based on defaults): /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/.newrelic/newrelic.yml, /home/sebastien/newrelic.yml
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : Environment: development
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : No known dispatcher detected.
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : Application: development
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : Installing Net instrumentation
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : Installing Sinatra instrumentation
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : Finished instrumentation
+[2018-10-25 13:34:31 -0400 sebastien-computer (11385)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-10-25 13:34:58 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 13:34:58 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 13:34:58 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 60 seconds
+[2018-10-25 13:36:00 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 13:36:00 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 13:36:00 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 120 seconds
+[2018-10-25 13:38:02 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 13:38:02 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 13:38:02 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 180 seconds
+[2018-10-25 13:41:05 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 13:41:05 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 13:41:05 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 240 seconds
+[2018-10-25 13:45:07 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 13:45:07 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 13:45:07 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 300 seconds
+[2018-10-25 13:50:09 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 13:50:09 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 13:50:09 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 360 seconds
+[2018-10-25 13:56:11 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 13:56:11 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 13:56:11 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 420 seconds
+[2018-10-25 14:03:14 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 14:03:14 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 14:03:14 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 480 seconds
+[2018-10-25 14:11:16 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 14:11:16 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 14:11:16 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 540 seconds
+[2018-10-25 14:20:18 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 14:20:18 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 14:20:18 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 14:30:20 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 14:30:20 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 14:30:20 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 14:40:23 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 14:40:23 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 14:40:23 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 14:50:25 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 14:50:25 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 14:50:25 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 15:00:27 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 15:00:27 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 15:00:27 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 15:10:29 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 15:10:29 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 15:10:29 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 15:20:32 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 15:20:32 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 15:20:32 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 15:30:34 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 15:30:34 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 15:30:34 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 15:40:36 -0400 sebastien-computer (11385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 15:40:36 -0400 sebastien-computer (11385)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 15:40:36 -0400 sebastien-computer (11385)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : Starting the New Relic agent version 4.8.0.341 in "development" environment.
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] WARN : No configuration file found. Working directory = /home/sebastien/Documents/prog-seb/schatell.io
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] WARN : Looked in these locations (based on defaults): /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/.newrelic/newrelic.yml, /home/sebastien/newrelic.yml
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : Environment: development
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : No known dispatcher detected.
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : Application: development
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : Installing Net instrumentation
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : Installing Sinatra instrumentation
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : Finished instrumentation
+[2018-10-25 21:45:20 -0400 sebastien-computer (565)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-10-25 21:45:41 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 21:45:41 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 21:45:41 -0400 sebastien-computer (565)] INFO : Will re-attempt in 60 seconds
+[2018-10-25 21:46:43 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 21:46:43 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 21:46:43 -0400 sebastien-computer (565)] INFO : Will re-attempt in 120 seconds
+[2018-10-25 21:48:45 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 21:48:45 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 21:48:45 -0400 sebastien-computer (565)] INFO : Will re-attempt in 180 seconds
+[2018-10-25 21:51:47 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 21:51:47 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 21:51:47 -0400 sebastien-computer (565)] INFO : Will re-attempt in 240 seconds
+[2018-10-25 21:55:50 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 21:55:50 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 21:55:50 -0400 sebastien-computer (565)] INFO : Will re-attempt in 300 seconds
+[2018-10-25 22:00:52 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 22:00:52 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 22:00:52 -0400 sebastien-computer (565)] INFO : Will re-attempt in 360 seconds
+[2018-10-25 22:06:54 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 22:06:54 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 22:06:54 -0400 sebastien-computer (565)] INFO : Will re-attempt in 420 seconds
+[2018-10-25 22:13:56 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 22:13:56 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 22:13:56 -0400 sebastien-computer (565)] INFO : Will re-attempt in 480 seconds
+[2018-10-25 22:21:59 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 22:21:59 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 22:21:59 -0400 sebastien-computer (565)] INFO : Will re-attempt in 540 seconds
+[2018-10-25 22:31:01 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 22:31:01 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 22:31:01 -0400 sebastien-computer (565)] INFO : Will re-attempt in 600 seconds
+[2018-10-25 22:41:03 -0400 sebastien-computer (565)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-10-25 22:41:03 -0400 sebastien-computer (565)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-10-25 22:41:03 -0400 sebastien-computer (565)] INFO : Will re-attempt in 600 seconds
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] INFO : Starting the New Relic agent version 4.8.0.341 in "development" environment.
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] WARN : No configuration file found. Working directory = /home/sebastien/Documents/prog-seb/schatell.io
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] WARN : Looked in these locations (based on defaults): /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/config/newrelic.yml, /home/sebastien/Documents/prog-seb/schatell.io/newrelic.yml, /home/sebastien/.newrelic/newrelic.yml, /home/sebastien/newrelic.yml
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] INFO : Environment: development
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] INFO : No known dispatcher detected.
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] INFO : Application: development
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] INFO : Installing Net instrumentation
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] INFO : Installing Sinatra instrumentation
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-18 09:30:38 -0500 sebastien-computer (4730)] INFO : Finished instrumentation
+[2018-11-18 09:30:39 -0500 sebastien-computer (4730)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-11-18 09:30:53 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 09:30:53 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 09:30:53 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 60 seconds
+[2018-11-18 09:31:55 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 09:31:55 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 09:31:55 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 120 seconds
+[2018-11-18 09:33:57 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 09:33:57 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 09:33:57 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 180 seconds
+[2018-11-18 09:37:00 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 09:37:00 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 09:37:00 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 240 seconds
+[2018-11-18 09:41:02 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 09:41:02 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 09:41:02 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 300 seconds
+[2018-11-18 09:46:04 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 09:46:04 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 09:46:04 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 360 seconds
+[2018-11-18 09:52:06 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 09:52:06 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 09:52:06 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 420 seconds
+[2018-11-18 09:59:08 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 09:59:08 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 09:59:08 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 480 seconds
+[2018-11-18 10:07:11 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 10:07:11 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 10:07:11 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 540 seconds
+[2018-11-18 10:16:13 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 10:16:13 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 10:16:13 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 600 seconds
+[2018-11-18 10:26:15 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 10:26:15 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 10:26:15 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 600 seconds
+[2018-11-18 10:36:17 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 10:36:17 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 10:36:17 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 600 seconds
+[2018-11-18 10:46:19 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 10:46:19 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 10:46:19 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 600 seconds
+[2018-11-18 10:56:22 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 10:56:22 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 10:56:22 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 600 seconds
+[2018-11-18 11:06:24 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 11:06:24 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 11:06:24 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 600 seconds
+[2018-11-18 11:16:26 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 11:16:26 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 11:16:26 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 600 seconds
+[2018-11-18 11:26:28 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 11:26:28 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 11:26:28 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 600 seconds
+[2018-11-18 11:36:31 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 11:36:31 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 11:36:31 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 600 seconds
+[2018-11-18 11:46:33 -0500 sebastien-computer (4730)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2018-11-18 11:46:33 -0500 sebastien-computer (4730)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
+[2018-11-18 11:46:33 -0500 sebastien-computer (4730)] INFO : Will re-attempt in 600 seconds

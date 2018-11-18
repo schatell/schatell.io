@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
@@ -7,18 +8,15 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="portfolio/portfolio.css">
   </head>
+
   <body>
+
     <header>
-        <% if @francais %>
-          <a href="./en" class="button"><img src="portfolio/EN.svg" alt="English version"></a>
-        <% else %>
-          <a href="./fr" class="button"><img src="portfolio/FR.svg" alt="French version"></a>
-        <% end %>
-      <nav>
-        <a href="#about" class="nav-link"><%= language[0] %></a>
-        <a href="#projects" class="nav-link"><%= language[1] %></a>
-        <a href="#skills" class="nav-link"><%= language[2] %></a>
-      </nav>
+      <% if @francais %>
+        <a href="./en" class="button">EN</a>
+      <% else %>
+        <a href="./fr" class="button">FR</a>
+      <% end %>
     </header>
 
     <div class="pale" id="about">
@@ -53,6 +51,10 @@
             <img class="logo" src="portfolio/linkedin.svg" alt="me on LinkedIn">
           </a>
 
+          <a href="https://codepen.io/schatell/" target="_blank">
+            <img class="logo" src="portfolio/codepen.png" alt="me on CodePen">
+          </a>
+
         </section>
       </section>
 
@@ -71,93 +73,45 @@
 
       <section class="project-wrap">
 
-        <section class="project">
-          <a href="http://ruby-mastermind.com" target="_blank" class="project-info">
-            <img src="portfolio/project-icon.svg" alt="project-logo" class="project-icon">
+        <a href="/band" class="project">
+          <section class="card-top">
+            <img class="desktop" src="portfolio/screen.svg" alt="screen svg">
+            <img class="desktop-screenshot" src="portfolio/banddesktop.png" alt="screenshot of desktop site">
+            <img class="phone" src="portfolio/phone.svg" alt="phone svg">
+            <img class="phone-screenshot"src="portfolio/bandphone.png" alt="screenshot of mobile site">
             <h2> <%= project[0][0] %> </h2>
-            <p><%= project[0][1] %></p>
-          </a>
-        </section>
+          </section>
+          <p><%= project[0][1] %></p>
+        </a>
 
-        <section class="project">
-          <a href="/band" class="project-info">
-            <img src="portfolio/bandproject.png" alt="project-logo" class="project-icon">
+        <a href="travel" class="project">
+          <section class="card-top">
+            <img class="desktop" src="portfolio/screen.svg" alt="screen svg">
+            <img class="desktop-screenshot" src="portfolio/traveldesktop.png" alt="screenshot of desktop site">
+            <img class="phone" src="portfolio/phone.svg" alt="phone svg">
+            <img class="phone-screenshot"src="portfolio/travelphone.png" alt="screenshot of mobile site">
             <h2> <%= project[1][0] %> </h2>
-            <p><%=project[1][1]%></p>
-          </a>
-        </section>
+          </section>
+          <p><%= project[1][1] %></p>
+        </a>
 
-        <section class="project">
-          <a href="" target="_blank" class="project-info">
-            <img src="portfolio/project-icon.svg" alt="project-logo" class="project-icon">
-            <h2> <%= project[2][0] %> </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
-               adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-               dolore magna aliqua. Ut enim ad minim veniam.</p>
-          </a>
-        </section>
-
-        <section class="project">
-          <a href="" target="_blank" class="project-info">
-            <img src="portfolio/project-icon.svg" alt="project-logo" class="project-icon">
-            <h2> <%= project[3][0] %> </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-               sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
-               adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-               dolore magna aliqua. Ut enim ad minim veniam.</p>
-          </a>
-        </section>
 
       </section>
     </div>
 
     <div class="pale" id="skills">
       <h1><%= language[9] %></h1>
+
       <section class="skill-wrap">
-        <svg version="1.1"
-             baseProfile="full"
-             xmlns="http://www.w3.org/2000/svg"
-             class="skill-diagram">
-
-          <line id="Av-to-Front" x1="50%" y1="50%" x2="77%" y2="40%"/>
-          <line id="Av-to-end" x1="50%" y1="50%" x2="13%" y2="55%" />
-          <line id="Front-to-Css" x1="77%" y1="40%" x2="40%" y2="24%"/>
-          <line id="Front-to-Js" x1="77%" y1="40%" x2="68%" y2="19%"/>
-          <line id="Front-to-HTML" x1="77%" y1="40%" x2="92%" y2="55%"/>
-          <line id="Front-to-SVG" x1="77%" y1="40%" x2="73%" y2="67%"/>
-          <line id="Back-to-Ruby" x1="13%" y1="55%" x2="17%" y2="78%"/>
-          <line id="Css-to-Sass" x1="40%" y1="24%" x2="22%" y2="32%"/>
-          <line id="Css-to-BS" x1="40%" y1="24%" x2="15%" y2="8%"/>
-          <line id="Js-to-Jquery" x1="68%" y1="19%" x2="54%" y2="9%"/>
-          <line id="Js-to-React" x1="68%" y1="19%" x2="87%" y2="9%"/>
-          <line id="Js-to-Vue" x1="68%" y1="19%" x2="87%" y2="27%"/>
-          <line id="HTML-to-SVG" x1="92%" y1="55%" x2="73%" y2="67%"/>
-          <line id="HTML-to-ERB" x1="92%" y1="55%" x2="81%" y2="84%"/>
-          <line id="Ruby-to-Rails" x1="17%" y1="78%" x2="41%" y2="71%"/>
-          <line id="Ruby-to-Sinatra" x1="17%" y1="78%" x2="25%" y2="91%"/>
-          <line id="Ruby-to-ERB" x1="17%" y1="78%" x2="81%" y2="84%"/>
-
-      </svg>
-
-        <a href="#" class="avatar" ></a>
-        <a href="#" class="end bubble" id="FrontEnd">FrontEnd</a>
-        <a href="#" class="end bubble" id="BackEnd">BackEnd</a>
-        <a href="#" class="tech-category bubble" id="JS">JS</a>
-        <a href="#" class="tech-category bubble" id="Css">Css</a>
-        <a href="#" class="tech-category bubble" id="Ruby">Ruby</a>
-        <a href="#" class="tech-category bubble" id="HTML">HTML</a>
-        <a href="#" class="tech bubble" id="Sinatra">Sinatra</a>
-        <a href="#" class="tech bubble" id="Rails">Rails</a>
-        <a href="#" class="tech bubble" id="ERB">ERB</a>
-        <a href="#" class="tech bubble" id="SVG">SVG</a>
-        <a href="#" class="tech bubble" id="Sass">Sass</a>
-        <a href="#" class="tech bubble" id="Bootstrap">Bootstrap</a>
-        <a href="#" class="tech bubble" id="Jquery">Jquery</a>
-        <a href="#" class="tech bubble" id="React">React</a>
-        <a href="#" class="tech bubble" id="Vue">Vue</a>
-
+        <ol>
+          <li>Html5, ERB</li><progress value="90" max="100">90%</progress>
+          <li>Css, Sass, Flex, Grid</li><progress value="80" max="100">80%</progress>
+          <li>SVG</li><progress value="70" max="100">0%</progress>
+          <li>Javascript, VueJS</li><progress value="50" max="100">0%</progress>
+          <li>Ruby, Rails, Sinatra</li><progress value="40" max="100">0%</progress>
+        </ol>
       </section>
+
 
       <section class="presentation">
         <h2><%= language[7] %></h2>
@@ -172,8 +126,5 @@
     </footer>
 
   </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="portfolio/javascript.js"></script>
 
-  </script>
 </html>

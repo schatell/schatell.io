@@ -81,10 +81,12 @@ body {
   padding-bottom: 2%;
   background-color: white; }
   .bio .member {
+    display: flex;
+    flex-direction: column;
     position: relative;
     margin-bottom: 15%;
     width: 80%;
-    height: 20vh;
+    height: auto;
     background-color: #33506e; }
     .bio .member h3 {
       margin: 0;
@@ -92,8 +94,10 @@ body {
       padding-right: 13vh; }
     .bio .member p {
       padding-left: 2em;
-      padding-right: 13vh; }
+      padding-right: 13vh;
+      margin-bottom: 1em; }
     .bio .member .portrait {
+      transition: 0.3s;
       position: absolute;
       float: right;
       right: -8vh;
@@ -105,6 +109,9 @@ body {
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover; }
+      .bio .member .portrait:hover {
+        transition: 0.3s;
+        transform: translateY(-35px); }
   .bio :nth-child(even) {
     margin-left: 20%; }
     .bio :nth-child(even) .portrait {
@@ -151,6 +158,12 @@ body {
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  h3 {
+    font-size: 2.8em; }
+
+  p {
+    font-size: 1.5em; }
+
   .hero {
     height: 85vh; }
     .hero .logo {
@@ -169,11 +182,12 @@ body {
   .bio {
     padding-top: 12%; }
     .bio .member {
-      height: 40vh;
+      min-height: 40vh;
       width: 60%;
       margin-bottom: 12%; }
       .bio .member h3 {
-        padding-right: 28vh; }
+        padding-right: 28vh;
+        padding-bottom: 0.8em; }
       .bio .member p {
         padding-left: 2em;
         padding-right: 28vh; }

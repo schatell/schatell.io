@@ -6,7 +6,6 @@ $dark: #336699;
 $dark2: #3988A8;
 $dark3: #3A94AA;
 $text-color: rgb(58, 61, 63);
-$header-height: 10vh;
 
 /* Mixin */
 @mixin gradient($color1, $color2, $color3, $orientation1, $orientation2) {
@@ -48,20 +47,17 @@ h4, h5 {
 
 header {
   margin: 18px;
-  width: 8vh;
-  height: 8vh;
-  background-color: transparentize($text-color, 0.15);
   border-radius: 50%;
   position: fixed;
   a {
     text-align: center;
-    padding-top: 25%;
     height: 50%;
     width: 100%;
     margin: 0;
     position: absolute;
     font-size: 5em;
-    color: white;
+    color: transparentize($text-color, 0.15);
+    text-decoration: underline;
   }
 }
 
@@ -69,7 +65,7 @@ footer {
   @include gradient((lighten($dark3, 15%)), (lighten($dark2, 15%)), (lighten($dark, 15%)), left, right);
   justify-content: space-between;
   align-items: flex-end;
-  height: $header-height;
+  height: 5vh;
 }
 
 a{
@@ -89,8 +85,7 @@ a{
 
 p, li{
   color: $text-color;
-  font-family: 'work-sans', sans-serif;
-  font-variant: small-caps;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .pale{
@@ -105,6 +100,10 @@ p, li{
   h1{
     color: $pale;
   }
+}
+
+section {
+  max-width: 100%;
 }
 
 /* Mobile First */
@@ -156,12 +155,12 @@ div{
 
 #about {
   h1 {
-    padding: 30px;
+    padding: 0 0 30px 0px ;
   }
 }
 
 #projects{
-  height: 160vh;
+  height: auto;
 }
 
 #skills {
@@ -192,7 +191,7 @@ div{
 .project-wrap{
   display: flex;
   flex-direction: column;
-  height: 95%;
+  height: auto;
   width: 100%;
   .project{
     padding: 10px;
@@ -200,7 +199,7 @@ div{
     margin-top: 100px;
     background-color: white;
     width: 100%;
-    height: 50%;
+    height: auto;
     p {
       padding: 10px;
     }
@@ -211,9 +210,11 @@ div{
       margin-top: -35px;
       margin-left: -20px;
       margin-bottom: 50px;
+      padding-right: 20px;
       background-color: $text-color;
-      height: 50%;
-      box-shadow: 8px 13px 12px lighten($text-color, 25%);
+      height: 35vh;
+      border-top-left-radius: 15px;
+      box-shadow: 8px 10px 12px lighten($text-color, 25%);
       h2 {
         grid-row: 2;
         grid-column: 1 / span 2;
@@ -272,12 +273,9 @@ div{
   }
 }
 
-
-
-
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
 
 }
 
@@ -289,11 +287,9 @@ div{
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-
-
-  header{
-    a{
-      font-size: 2.5em;
+  header {
+    a {
+      font-size: 3em;
     }
   }
 
@@ -322,8 +318,9 @@ div{
           margin-left: 32%;
         }
         .phone-screenshot {
-          margin-left: 34%;
-          height: 70%;
+          margin-left: 35%;
+          margin-top: 25%;
+          height: 68%;
         }
       }
     }
@@ -354,11 +351,18 @@ div{
     height: 140vh;
     max-height: 1200px;
     .intro{
-      height: 32%;
+
     }
   }
 
   #skills {
     height: auto;
+  }
+
+  .skill-wrap {
+    ol {
+      font-size: 2.5em;
+      margin:50px 0px;
+    }
   }
 }

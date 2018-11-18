@@ -103,10 +103,12 @@ div {}
   background-color: white;
 
   .member {
+    display: flex;
+    flex-direction: column;
     position: relative;
     margin-bottom: 15%;
     width: 80%;
-    height: 20vh;
+    height: auto;
     background-color: #33506e;
 
     h3 {
@@ -118,9 +120,11 @@ div {}
     p {
       padding-left: 2em;
       padding-right: 13vh;
+      margin-bottom: 1em;
     }
 
     .portrait {
+      transition: 0.3s;
       position: absolute;
       float: right;
       right: -8vh;
@@ -132,6 +136,10 @@ div {}
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+      &:hover {
+        transition: 0.3s;
+        transform: translateY(-35px);
+      }
     }
   }
 
@@ -203,6 +211,14 @@ div {}
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+  h3 {
+    font-size: 2.8em;
+  }
+
+  p{
+    font-size: 1.5em;
+  }
+
   .hero {
     height: 85vh;
     .logo {
@@ -229,12 +245,13 @@ div {}
     padding-top: 12%;
 
     .member {
-      height: 40vh;
+      min-height: 40vh;
       width: 60%;
       margin-bottom: 12%;
 
       h3 {
         padding-right: 28vh;
+        padding-bottom: 0.8em;
       }
 
       p {

@@ -157,51 +157,46 @@ div {
   height: auto;
   width: 100%; }
   .project-wrap .project {
-    padding: 10px;
+    transition: 0.2s;
+    border-radius: 15px;
+    box-shadow: 3px 5px 15px #3a3d3f;
     margin: 0;
     margin-top: 100px;
     background-color: white;
     width: 100%;
     height: auto; }
+    .project-wrap .project:hover {
+      transition: 0.3s;
+      transform: scale(1.1); }
     .project-wrap .project p {
-      padding: 10px; }
+      padding: 20px; }
     .project-wrap .project .card-top {
       display: grid;
+      width: 100%;
       grid-template-columns: 50% 50%;
       grid-template-rows: 80% 20%;
-      margin-top: -35px;
-      margin-left: -20px;
-      margin-bottom: 50px;
-      padding-right: 20px;
-      background-color: #3a3d3f;
-      height: 35vh;
-      border-top-left-radius: 15px;
-      box-shadow: 8px 10px 12px #777d81; }
+      height: 35vh; }
       .project-wrap .project .card-top h2 {
         grid-row: 2;
         grid-column: 1 / span 2;
-        color: white; }
+        padding: 0; }
       .project-wrap .project .card-top img {
         height: 75%;
         filter: opacity(1); }
-      .project-wrap .project .card-top .desktop {
-        grid-column: 1;
-        grid-row: 1;
-        margin-top: 10%;
-        margin-left: 32%; }
-      .project-wrap .project .card-top .phone, .project-wrap .project .card-top .phone-screenshot {
+      .project-wrap .project .card-top .phone-screenshot {
+        background-color: #3a3d3f;
         grid-column: 2;
         grid-row: 1;
-        margin-top: 20%;
-        margin-left: 30%; }
-      .project-wrap .project .card-top .phone-screenshot {
         border-radius: 20px;
+        border: 8px solid #3a3d3f;
         margin-top: 24.5%;
         margin-left: 32.2%;
         height: 68%;
         width: auto; }
       .project-wrap .project .card-top .desktop-screenshot {
+        background-color: #3a3d3f;
         border-radius: 20px;
+        border: 8px solid #3a3d3f;
         margin-top: 13%;
         margin-left: 35.5%;
         width: auto;
@@ -216,7 +211,8 @@ div {
   line-height: 160%; }
 .skill-wrap progress[value]::-webkit-progress-bar {
   background-color: #999;
-  border-radius: 10px; }
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px #3a3d3f; }
 .skill-wrap progress[value]::-webkit-progress-value {
   background: #336699;
   background: -moz-linear-gradient(right, #336699 0%, #3988A8 55%, #3A94AA 100%);
@@ -240,10 +236,10 @@ div {
     margin-top: 100px; }
     .project-wrap .project {
       margin: auto;
-      width: 45%;
-      height: 800px; }
+      width: 35%;
+      height: 700px; }
       .project-wrap .project .card-top {
-        height: 70%; }
+        height: 60%; }
         .project-wrap .project .card-top h2 {
           padding-top: 0; }
         .project-wrap .project .card-top .desktop {

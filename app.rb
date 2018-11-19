@@ -1,7 +1,5 @@
 require 'sinatra'
 require 'newrelic_rpm'
-require 'sinatra/reloader' if development?
-
 
 english = ["About me", "Projects", "Skills", "Hi!", "My name is Sebastien,",
 "I'm a self-taught web developer and passionated by the modern web! I like

@@ -1280,3 +1280,115 @@
 [2018-11-19 12:42:10 -0500 sebastien-computer (10984)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
 [2018-11-19 12:42:10 -0500 sebastien-computer (10984)] ERROR : NewRelic::Agent::ServerConnectionException: Unexpected response from server (404): Not Found
 [2018-11-19 12:42:10 -0500 sebastien-computer (10984)] INFO : Will re-attempt in 420 seconds
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : Environment: development
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : No known dispatcher detected.
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : Application: My Application (Development)
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : Installing Net instrumentation
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : Installing Sinatra instrumentation
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-19 14:29:32 -0500 sebastien-computer (22127)] INFO : Finished instrumentation
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : Environment: development
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : No known dispatcher detected.
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : Application: My Application (Development)
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : Installing Net instrumentation
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : Installing Sinatra instrumentation
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-19 14:31:19 -0500 sebastien-computer (22419)] INFO : Finished instrumentation
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : Environment: development
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : No known dispatcher detected.
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : Application: My Application (Development)
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : Installing Net instrumentation
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : Installing Sinatra instrumentation
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-19 14:31:50 -0500 sebastien-computer (22518)] INFO : Finished instrumentation
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : Environment: development
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : No known dispatcher detected.
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : Application: My Application (Development)
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : Installing Net instrumentation
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : Installing Sinatra instrumentation
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-19 14:32:34 -0500 sebastien-computer (22635)] INFO : Finished instrumentation
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : Environment: development
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : No known dispatcher detected.
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : Application: My Application (Development)
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : Installing Net instrumentation
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : Installing Sinatra instrumentation
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-19 14:32:56 -0500 sebastien-computer (22656)] INFO : Finished instrumentation
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : Environment: development
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : No known dispatcher detected.
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : Application: My Application (Development)
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : Installing Net instrumentation
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : Installing Sinatra instrumentation
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-19 14:33:58 -0500 sebastien-computer (22964)] INFO : Finished instrumentation
+[2018-11-19 14:37:04 -0500 sebastien-computer (2342)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-19 14:37:04 -0500 sebastien-computer (2342)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-19 14:37:04 -0500 sebastien-computer (2342)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-19 14:37:04 -0500 sebastien-computer (2342)] INFO : Environment: development
+[2018-11-19 14:37:04 -0500 sebastien-computer (2342)] INFO : No known dispatcher detected.
+[2018-11-19 14:37:04 -0500 sebastien-computer (2342)] INFO : Application: My Application (Development)
+[2018-11-19 14:37:04 -0500 sebastien-computer (2342)] INFO : Installing Net instrumentation
+[2018-11-19 14:37:04 -0500 sebastien-computer (2342)] INFO : Installing Sinatra instrumentation
+[2018-11-19 14:37:04 -0500 sebastien-computer (2342)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-19 14:37:04 -0500 sebastien-computer (2342)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-19 14:37:05 -0500 sebastien-computer (2342)] INFO : Finished instrumentation
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : Environment: development
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : No known dispatcher detected.
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : Application: My Application (Development)
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : Installing Net instrumentation
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : Installing Sinatra instrumentation
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-19 14:39:25 -0500 sebastien-computer (3272)] INFO : Finished instrumentation
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : Environment: development
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : No known dispatcher detected.
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : Application: My Application (Development)
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : Installing Net instrumentation
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : Installing Sinatra instrumentation
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-19 14:40:20 -0500 sebastien-computer (3340)] INFO : Finished instrumentation
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : Environment: development
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : No known dispatcher detected.
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : Application: My Application (Development)
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : Installing Net instrumentation
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : Installing Sinatra instrumentation
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : Finished instrumentation
+[2018-11-19 14:40:58 -0500 sebastien-computer (3406)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-11-19 14:41:00 -0500 sebastien-computer (3406)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1871688/applications/104479142

@@ -16,7 +16,7 @@ web moderne! J'aime travailler avec les technologies d'aujourd'hui, avec de
 nouvelles idées de design. Personellement, je suis passionné de la vie a
 l'exterieur et l'archerie!", "Mes compétences sont diverses et pratiques. J'aime
 travailler dans tout ce qui est frontal comme HTML, CSS, et les outils
-Javascript modernes. Je fais aussi de l'interne avec Ruby.", "Contacter moi à:",
+Javascript modernes. Je fais aussi de l'interne avec Ruby.", "Contactez moi à:",
 "Projets", "Compétences"]
 
 projectsf = [

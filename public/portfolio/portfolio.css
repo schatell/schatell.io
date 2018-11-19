@@ -22,14 +22,18 @@ header {
   border-radius: 50%;
   position: fixed; }
   header a {
+    transition: 0.3s;
     text-align: center;
     height: 50%;
     width: 100%;
     margin: 0;
     position: absolute;
     font-size: 5em;
-    color: rgba(58, 61, 63, 0.85);
+    color: rgba(58, 61, 63, 0.5);
     text-decoration: underline; }
+    header a:hover {
+      transition: 0.2s;
+      color: #3a3d3f; }
 
 footer {
   background: #66b7cb;
@@ -212,14 +216,14 @@ div {
   line-height: 160%; }
 .skill-wrap progress[value]::-webkit-progress-bar {
   background-color: #999;
-  border-radius: 15px; }
+  border-radius: 10px; }
 .skill-wrap progress[value]::-webkit-progress-value {
   background: #336699;
   background: -moz-linear-gradient(right, #336699 0%, #3988A8 55%, #3A94AA 100%);
   background: -webkit-linear-gradient(right, #336699 0%, #3988A8 55%, #3A94AA 100%);
   background: linear-gradient(to left, #336699 0%, #3988A8 55%, #3A94AA 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color2',GradientType=0 );
-  border-radius: 15px; }
+  border-radius: 10px; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
@@ -236,7 +240,7 @@ div {
     margin-top: 100px; }
     .project-wrap .project {
       margin: auto;
-      width: 40%;
+      width: 45%;
       height: 800px; }
       .project-wrap .project .card-top {
         height: 70%; }
@@ -271,6 +275,8 @@ div {
   #about {
     height: 140vh;
     max-height: 1200px; }
+    #about .presentation p {
+      width: 40%; }
 
   #skills {
     height: auto; }

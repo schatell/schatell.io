@@ -50,14 +50,19 @@ header {
   border-radius: 50%;
   position: fixed;
   a {
+    transition: 0.3s;
     text-align: center;
     height: 50%;
     width: 100%;
     margin: 0;
     position: absolute;
     font-size: 5em;
-    color: transparentize($text-color, 0.15);
+    color: transparentize($text-color, 0.5);
     text-decoration: underline;
+    &:hover {
+      transition: 0.2s;
+      color: $text-color;
+    }
   }
 }
 
@@ -265,11 +270,11 @@ div{
   }
   progress[value]::-webkit-progress-bar {
     background-color: #999;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   progress[value]::-webkit-progress-value {
     @include gradient($dark, $dark2, $dark3, right, left);
-    border-radius: 15px;
+    border-radius: 10px;
   }
 }
 
@@ -301,7 +306,7 @@ div{
     margin-top: 100px;
     .project{
       margin: auto;
-      width: 40%;
+      width: 45%;
       height: 800px;
       .card-top {
         height: 70%;
@@ -352,6 +357,11 @@ div{
     max-height: 1200px;
     .intro{
 
+    }
+    .presentation {
+      p {
+        width: 40%;
+      }
     }
   }
 

@@ -33,6 +33,20 @@ progress[value] {
 
 /* General Rules */
 
+.pale{
+  @include gradient($pale, $pale2, $pale3, top, bottom);
+  h1{
+    color: $dark;
+  }
+}
+
+.dark{
+  @include gradient($dark, $dark2, $dark3, top, bottom);
+  h1{
+    color: $pale;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: $dark;
   font-variant: small-caps;
@@ -52,10 +66,7 @@ header {
   a {
     transition: 0.3s;
     text-align: center;
-    height: 50%;
-    width: 100%;
     margin: 0;
-    position: absolute;
     font-size: 5em;
     color: transparentize($text-color, 0.5);
     text-decoration: underline;
@@ -64,13 +75,6 @@ header {
       color: $text-color;
     }
   }
-}
-
-footer {
-  @include gradient((lighten($dark3, 15%)), (lighten($dark2, 15%)), (lighten($dark, 15%)), left, right);
-  justify-content: space-between;
-  align-items: flex-end;
-  height: 5vh;
 }
 
 a{
@@ -93,41 +97,23 @@ p, li{
   font-family: 'Open Sans', sans-serif;
 }
 
-.pale{
-  @include gradient($pale, $pale2, $pale3, top, bottom);
-  h1{
-    color: $dark;
-  }
-}
-
-.dark{
-  @include gradient($dark, $dark2, $dark3, top, bottom);
-  h1{
-    color: $pale;
-  }
+li {
+  font-variant: small-caps;
+  font-family: 'Rubik', sans-serif;
 }
 
 section {
   max-width: 100%;
 }
 
-/* Mobile First */
-
-
 footer {
-  display: flex;
-  p{
-    margin: 15px;
-    color: white;
-    font-size: 1em;
-  }
-  .button{
-    height: 40%;
-    padding: 0;
-    margin-left: 35px;
-    cursor: pointer;
-  }
+  @include gradient((lighten($dark3, 15%)), (lighten($dark2, 15%)), (lighten($dark, 15%)), left, right);
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 5vh;
 }
+
+/* Mobile First */
 
 div{
   display: flex;
@@ -140,7 +126,6 @@ div{
     font-size: 8em;
   }
   h2{
-    z-index: 2;
     font-size: 5em;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -158,20 +143,6 @@ div{
     line-height: 1.4em;
     margin-bottom: 28px;
   }
-}
-
-#about {
-  h1 {
-    padding: 0 0 30px 0px ;
-  }
-}
-
-#projects{
-  height: auto;
-}
-
-#skills {
-  height: auto;
 }
 
 .intro{
@@ -193,6 +164,11 @@ div{
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
 }
 
 .project-wrap{
@@ -270,9 +246,27 @@ div{
   }
 }
 
-.presentation {
+footer {
   display: flex;
-  flex-direction: column;
+  p{
+    margin: 15px;
+    color: white;
+    font-size: 1em;
+  }
+}
+
+#about {
+  h1 {
+    padding: 0 0 30px 0px ;
+  }
+}
+
+#projects{
+  height: auto;
+}
+
+#skills {
+  height: auto;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -296,6 +290,22 @@ div{
 
   header {
     a {
+      font-size: 3em;
+    }
+  }
+
+  div{
+    padding: 10%;
+    .avatar{
+      height: 20%;
+    }
+    p{
+      font-size: 1.5em;
+    }
+    h1 {
+      font-size: 6em;
+    }
+    h2 {
       font-size: 3em;
     }
   }
@@ -333,19 +343,10 @@ div{
     }
   }
 
-  div{
-    padding: 10%;
-    .avatar{
-      height: 20%;
-    }
-    p{
-      font-size: 1.5em;
-    }
-    h1 {
-      font-size: 6em;
-    }
-    h2 {
-      font-size: 3em;
+  .skill-wrap {
+    ol {
+      font-size: 2.5em;
+      margin:50px 0px;
     }
   }
 
@@ -367,12 +368,5 @@ div{
 
   #skills {
     height: auto;
-  }
-
-  .skill-wrap {
-    ol {
-      font-size: 2.5em;
-      margin:50px 0px;
-    }
   }
 }

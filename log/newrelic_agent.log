@@ -1405,3 +1405,16 @@
 [2018-11-20 11:08:44 -0500 sebastien-computer (18807)] INFO : Finished instrumentation
 [2018-11-20 11:08:44 -0500 sebastien-computer (18807)] INFO : Doing deferred dependency-detection before Rack startup
 [2018-11-20 11:08:47 -0500 sebastien-computer (18807)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1871688/applications/104479142
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : Reading configuration from newrelic.yml (/home/sebastien/Documents/prog-seb/schatell.io)
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : Environment: development
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : No known dispatcher detected.
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : Application: My Application (Development)
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : Installing Net instrumentation
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : Installing Sinatra instrumentation
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : Finished instrumentation
+[2018-11-20 11:54:48 -0500 sebastien-computer (23270)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-11-20 11:54:50 -0500 sebastien-computer (23270)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1871688/applications/104479142

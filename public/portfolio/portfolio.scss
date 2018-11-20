@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h4, h5 {
   color: $text-color;
-  font-size: 3em;
+  font-size: 2em;
   font-style: italic;
 }
 
@@ -135,7 +135,6 @@ div{
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  height: 95vh;
   padding: 5%;
   h1{
     font-size: 8em;
@@ -145,6 +144,9 @@ div{
     font-size: 5em;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  h4 {
+    word-wrap: break-word;
   }
   h5{
     font-size: 1.2em;
@@ -169,7 +171,7 @@ div{
 }
 
 #skills {
-  height: 65vh;
+  height: auto;
 }
 
 .intro{
@@ -178,7 +180,7 @@ div{
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 45%;
+  height: 45vh;
   .avatar{
     height: 100%;
   }
@@ -199,7 +201,6 @@ div{
   height: auto;
   width: 100%;
   .project{
-    transition: 0.2s;
     border-radius: 15px;
     box-shadow: 3px 5px 15px $text-color;
     margin: 0;
@@ -207,11 +208,6 @@ div{
     background-color: white;
     width: 100%;
     height: auto;
-    &:hover {
-      transition: 0.3s;
-      transform: scale(1.1);
-
-    }
     p {
       padding: 20px;
     }
@@ -274,15 +270,25 @@ div{
   }
 }
 
+.presentation {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+  .project-wrap {
+    .project {
+      .card-top {
+        height: 50vh;
+      }
+    }
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -294,29 +300,29 @@ div{
     }
   }
 
-  .project-wrap{
+  .project-wrap {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     height: 90%;
     margin-top: 100px;
     .project{
+      transition: 0.2s;
       margin: auto;
       width: 35%;
       height: 700px;
+      &:hover {
+        transition: 0.3s;
+        transform: scale(1.1);
+        box-shadow: 8px 8px 18px $text-color;
+      }
       .card-top {
         height: 60%;
         h2 {
           padding-top: 0;
         }
-        .desktop {
-          margin-left: 15%;
-        }
         .desktop-screenshot {
           margin-left: 20%;
-        }
-        .phone {
-          margin-left: 32%;
         }
         .phone-screenshot {
           margin-left: 35%;
@@ -345,18 +351,16 @@ div{
 
   #projects{
     height: auto;
-    max-height: 2400px;
   }
 
   #about{
     height: 140vh;
-    max-height: 1200px;
     .intro{
-
+      height: 65vh;
     }
     .presentation {
       p {
-        width: 40%;
+        width: 45%;
       }
     }
   }
